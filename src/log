@@ -1,0 +1,31 @@
+2018/04/10 22:00:17 Connection created
+2018/04/10 22:00:17 Connection closed
+Daemon started
+2018/04/10 22:00:24 Daemon process is killed
+2018/04/10 22:01:23 Connection created
+2018/04/10 22:01:23 Connection closed
+Daemon started
+2018/04/10 22:01:29 Daemon process is killed
+2018/04/10 22:04:05 Connection created
+2018/04/10 22:04:05 Connection closed
+Daemon started
+You can kill a daemon with help of pid file, that contains pid of process
+File is creating after the app has been started
+2018/04/10 22:04:35 Daemon process is killed
+Daemon started
+You can kill a daemon with help of pid file, that contains pid of process
+File is creating after the app has been started
+2018/04/10 22:05:12 Daemon process is killed
+Daemon started
+You can kill a daemon with help of pid file, that contains pid of process
+File is creating after the app has been started
+2018/04/10 22:05:49 Connection created
+2018/04/10 22:07:39 Daemon process is killed
+Daemon started
+You can kill a daemon with help of pid file, that contains pid of process
+(pid file is gonna be created after the app has been started)
+2018/04/10 22:13:42 Connection created
+2018/04/10 22:13:42 Connection created
+2018/04/10 22:14:02 Connection closed
+2018/04/10 22:14:02 Connection closed
+2018/04/10 22:14:02 Daemon process is killed
