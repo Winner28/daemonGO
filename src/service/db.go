@@ -1,4 +1,4 @@
-package db
+package service
 
 import (
 	"database/sql"
@@ -35,10 +35,10 @@ func GetEmptyConfig() Config {
 // GetDefaultConfig returns defaul config
 func GetDefaultConfig() Config {
 	config := Config{}
-	config.User = "postgres"
-	config.Database = "test_app"
+	config.User = "super_cool"
+	config.Database = "daemon_app"
 	config.Host = " 127.0.0.1"
-	config.Password = "12345678"
+	config.Password = "#enctypred"
 	config.Port = "5432"
 	return config
 }

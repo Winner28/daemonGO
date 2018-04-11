@@ -19,7 +19,7 @@ func StartDaemon() {
 		LogFilePerm: 0640,
 		WorkDir:     "./",
 		Umask:       027,
-		Args:        []string{"[go-daemon sample]"},
+		Args:        []string{"[daemon-process]"},
 	}
 	d, err := cntxt.Reborn()
 	if err != nil {
@@ -30,8 +30,8 @@ func StartDaemon() {
 	}
 	defer cntxt.Release()
 
-	go registerMetricsFromDevices(1, 5)
-	go monitorIncomingMetricsOfDevices(1, 5)
+	go registerIncomingMetricsFromDevices(1, 1)
+	go monitorIncomingMetricsOfDevices(1, 1)
 
 	err = daemon.ServeSignals()
 	if err != nil {

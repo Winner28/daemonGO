@@ -2,7 +2,7 @@ package main
 
 import (
 	"daemon"
-	"db"
+	"service"
 )
 
 func main() {
@@ -10,8 +10,8 @@ func main() {
 
 }
 
-func getHandler() *db.Handler {
-	handler, err := db.GetConnection(db.GetConfigFromProperties())
+func getHandler() *service.Handler {
+	handler, err := service.GetConnection(service.GetConfigFromProperties())
 	if err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
 package daemon
 
 import (
-	"db"
 	"encoding/json"
 	"log"
 	"math/rand"
 	"model"
 	"os"
+	"service"
 	"time"
 )
 
 var (
 	done          = make(chan bool)
-	connections   = []*db.Handler{}
+	connections   = []*service.Handler{}
 	deviceMetrics = make(map[int]model.DeviceMetricsRange)
 )
 
@@ -40,14 +40,14 @@ func getDeviceMetricsRangesFromProperties() []model.DeviceMetricsRange {
 
 // registerIncomingMetricsFromDevices регистрируюет приходящие метрики с устройств.
 // Диапазон интересующих устройств указывается явно
-func registerMetricsFromDevices(from, to int) {
+func registerIncomingMetricsFromDevices(from, to int) {
 	handler := getHandler()
 	connections = append(connections, handler)
 	for {
 		log.Println("Registering metrics from devices...")
 		// симулируется ситуацию отправки метрик с определенного устройства
 		// для этого в файле config.metrics_range указан диапазон значений (min-max)
-		for ID := from; ID < to; ID++ {
+		for ID := from; ID <= to; ID++ {
 			metrics := make(map[int]int)
 			for i := 1; i <= 5; i++ {
 				metrics[i] = getDeviceMetricsForDevice(ID)
@@ -78,8 +78,8 @@ func random(min, max int) int {
 	return rand.Intn(max-min) + min
 }
 
-func getHandler() *db.Handler {
-	handler, err := db.GetConnection(db.GetConfigFromProperties())
+func getHandler() *service.Handler {
+	handler, err := service.GetConnection(service.GetConfigFromProperties())
 	if err != nil {
 		panic(err)
 	}

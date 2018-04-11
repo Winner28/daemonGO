@@ -1,44 +1,65 @@
 package model
 
-import "time"
+import (
+	"strconv"
+	"time"
+)
 
-// User struct represents a user table in database
+// User struct represents a `users` table in database
 type User struct {
-	id    int
-	name  string
-	email string
+	ID    int
+	Name  string
+	Email string
 }
 
-// Device struct represents a devices table in database
+// Device struct represents a `devices` table in database
 type Device struct {
-	id     int
-	name   string
-	userID int
+	ID     int
+	Name   string
+	UserID int
 }
 
-// DeviceMetrics struct represents a device_metrics table in database
+// DeviceMetrics struct represents a `device_metrics` table in database
 type DeviceMetrics struct {
-	ID         int
-	DeviceID   int `json:"device_id"`
-	Metric1    int `json:"metric1"`
-	Metric2    int `json:"metric2"`
-	Metric3    int `json:"metric3"`
-	Metric4    int `json:"metric4"`
-	Metric5    int `json:"metric5"`
-	LocalTime  time.Time
-	ServerTime time.Time
+	ID        int
+	DeviceID  int `json:"device_id"`
+	Metric1   int `json:"metric1"`
+	Metric2   int `json:"metric2"`
+	Metric3   int `json:"metric3"`
+	Metric4   int `json:"metric4"`
+	Metric5   int `json:"metric5"`
+	LocalTime time.Time
 }
 
-// DeviceAlerts struct represents a device_alerts table in database
+// DeviceAlerts struct represents a `device_alerts` table in database
 type DeviceAlerts struct {
 	id       int
 	deviceID int
 	message  string
 }
 
-// DeviceMetricsRange range
+// DeviceMetricsRange to this struct json parses from [/config/config.metrics_range.json] file
 type DeviceMetricsRange struct {
 	DeviceID int `json:"device_id"`
 	Min      int `json:"min"`
 	Max      int `json:"max"`
+}
+
+// ToString method returns string-representation of User
+func (user User) ToString() string {
+	toReturn := "User information:\n"
+	toReturn += "User ID: " + strconv.Itoa(user.ID)
+	toReturn += "\nUser Name: " + user.Name
+	toReturn += "\nUser Email: " + user.Email
+
+	return toReturn
+}
+
+// ToString method returns string-representation of Device
+func (device Device) ToString() string {
+	toReturn := "\nDevice information: \n"
+	toReturn += "\nDevice ID: " + strconv.Itoa(device.ID)
+	toReturn += "\nDevice Name: " + device.Name
+
+	return toReturn
 }
