@@ -28,7 +28,7 @@ const (
 	selectExists = `SELECT exists(SELECT device_id FROM device_metrics WHERE device_id=$1);`
 )
 
-// Statements for working with users, devices, and device_alers table
+// Statements for working with users, devices, and device_alerts tables
 const (
 	selectUser        = `SELECT id, name, email FROM users WHERE id=$1;`
 	insertDeviceAlert = `INSERT INTO device_alerts (id, device_id, message) 
@@ -81,7 +81,9 @@ func parseMetricsJSON() []model.DeviceMetrics {
 	return devM
 }
 
-// UpdateMetrics updates device_metrics of given ID and metrics values
+// UpdateMetrics updates device_metrics of given DEVICE_ID and metrics values
+// that contains in passed metrics map (key = metricsID, value = metricValue
+// (TODO: swap with array [5]int))
 func (handler *Handler) UpdateMetrics(ID int, metrics map[int]int) {
 	if !contains[ID] {
 		if !handler.deviceMetricExists(ID) {
@@ -136,7 +138,9 @@ func (handler *Handler) MonitorMetrics(from int, to int) {
 	}
 }
 
-// TODO:
+// Alert message to device_alerts table, message contains information about:
+// concrete user, device and the device_metrics that out of range
+// [] badMetrics represents a numbers of bad metrics
 func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetrics, badMetrics []int) {
 	row := handler.Db.QueryRow(selectDevice, deviceMetrics.DeviceID)
 	var device model.Device
@@ -169,6 +173,7 @@ func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetric
 	*(&lastDeviceAlertID)++ */
 }
 
+// Specified error message for device_metrics, that out of range
 func createErrorMessage(user model.User, device model.Device, deviceMetrics model.DeviceMetrics, badMetrics []int) string {
 	message := "TROUBLE WITH METRICS!\n" + user.ToString() + device.ToString()
 	message += "\n\nFor Device Metrics ID: " + strconv.Itoa(device.ID)
@@ -207,6 +212,8 @@ func (handler *Handler) deviceMetricExists(ID int) bool {
 	return exists
 }
 
+// checking if metrics are out of specified range
+// (range specified in /config/config.metrics.json file)
 func checkMetrics(device model.DeviceMetrics) ([]int, bool) {
 	badMetrics := make([]int, 5)
 	ok := true
