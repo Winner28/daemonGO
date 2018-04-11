@@ -2,15 +2,41 @@ package daemon
 
 import (
 	"db"
+	"encoding/json"
 	"log"
 	"math/rand"
+	"model"
+	"os"
 	"time"
 )
 
 var (
-	done        = make(chan bool)
-	connections = []*db.Handler{}
+	done          = make(chan bool)
+	connections   = []*db.Handler{}
+	deviceMetrics = make(map[int]model.DeviceMetricsRange)
 )
+
+func init() {
+	for _, value := range getDeviceMetricsRangesFromProperties() {
+		deviceMetrics[value.DeviceID] = value
+	}
+}
+
+func getDeviceMetricsRangesFromProperties() []model.DeviceMetricsRange {
+	file, err := os.Open("./config/config.metrics_range.json")
+	if err != nil {
+		log.Println(err.Error())
+		os.Exit(1)
+	}
+	defer file.Close()
+	decoder := json.NewDecoder(file)
+	var devMetrics []model.DeviceMetricsRange
+	if err = decoder.Decode(&devMetrics); err != nil {
+		log.Println(err.Error())
+		os.Exit(1)
+	}
+	return devMetrics
+}
 
 // registerIncomingMetricsFromDevices регистрируюет приходящие метрики с устройств.
 // Диапазон интересующих устройств указывается явно
@@ -42,16 +68,17 @@ func monitorIncomingMetricsOfDevices(from, to int) {
 	}
 }
 
+func getDeviceMetricsForDevice(ID int) int {
+	devMetr := deviceMetrics[ID]
+	return random(devMetr.Min, devMetr.Max)
+}
+
 func random(min, max int) int {
 	return rand.Intn(max-min) + min
 }
 
-func getDeviceMetricsForDevice(ID int) int {
-	return random(0, 0)
-}
-
 func getHandler() *db.Handler {
-	handler, err := db.GetConnection(db.GetConfigurationFromProperties())
+	handler, err := db.GetConnection(db.GetConfigFromProperties())
 	if err != nil {
 		panic(err)
 	}

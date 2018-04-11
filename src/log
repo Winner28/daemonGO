@@ -1,510 +1,78 @@
-Init!
-_------------------------_______________----- map[2:{0 2 1 2 3 4 5} 4:{0 4 1 2 3 4 5} 3:{0 3 1 2 3 4 5} 1:{0 1 1 2 3 4 5}]
 Daemon started
 You can kill a daemon with help of pid file, that contains pid of process
 (Pid file is gonna be created after the app has been started)
-2018/04/11 14:19:33 Connection created
-2018/04/11 14:19:33 Registering metrics from devices...
-2018/04/11 14:19:33 Incoming mettics: 1 map[1:11 2:77 3:217 4:189 5:111]
-2018/04/11 14:19:33 Incoming mettics: 2 map[1:168 2:215 3:170 4:126 5:170]
-2018/04/11 14:19:33 Incoming mettics: 3 map[4:219 5:198 1:124 2:21 3:152]
-2018/04/11 14:19:33 Incoming mettics: 4 map[2:61 3:15 4:227 5:136 1:104]
-2018/04/11 14:19:33 Incoming mettics: 5 map[3:218 4:108 5:217 1:205 2:76]
-2018/04/11 14:19:33 Incoming mettics: 6 map[3:38 4:100 5:85 1:197 2:37]
-2018/04/11 14:19:33 Incoming mettics: 7 map[1:131 2:138 3:37 4:121 5:139]
-2018/04/11 14:19:33 Incoming mettics: 8 map[1:186 2:187 3:181 4:55 5:36]
-2018/04/11 14:19:33 Incoming mettics: 9 map[1:203 2:60 3:224 4:113 5:23]
-2018/04/11 14:19:33 Incoming mettics: 10 map[2:48 3:54 4:169 5:223 1:157]
-2018/04/11 14:19:33 Incoming mettics: 11 map[1:47 2:171 3:139 4:169 5:50]
-2018/04/11 14:19:33 Incoming mettics: 12 map[1:215 2:78 3:108 4:153 5:165]
-2018/04/11 14:19:33 Incoming mettics: 13 map[1:201 2:80 3:15 4:166 5:16]
-2018/04/11 14:19:33 Incoming mettics: 14 map[5:156 1:98 2:11 3:52 4:153]
-2018/04/11 14:19:33 Incoming mettics: 15 map[1:213 2:166 3:92 4:168 5:77]
-2018/04/11 14:19:33 Incoming mettics: 16 map[4:126 5:70 1:164 2:187 3:173]
-2018/04/11 14:19:33 Incoming mettics: 17 map[5:31 1:213 2:163 3:87 4:223]
-2018/04/11 14:19:33 Incoming mettics: 18 map[1:189 2:223 3:73 4:101 5:52]
-2018/04/11 14:19:33 Incoming mettics: 19 map[1:68 2:186 3:96 4:97 5:90]
-2018/04/11 14:19:33 Incoming mettics: 20 map[1:53 2:222 3:13 4:95 5:228]
-2018/04/11 14:19:33 Incoming mettics: 21 map[5:17 1:115 2:101 3:65 4:47]
-2018/04/11 14:19:33 Incoming mettics: 22 map[4:60 5:162 1:200 2:120 3:135]
-2018/04/11 14:19:33 Incoming mettics: 23 map[1:228 2:123 3:221 4:112 5:174]
-2018/04/11 14:19:33 Incoming mettics: 24 map[4:181 5:184 1:187 2:37 3:127]
-2018/04/11 14:19:33 Incoming mettics: 25 map[2:12 3:171 4:129 5:136 1:156]
-2018/04/11 14:19:33 Incoming mettics: 26 map[1:40 2:43 3:216 4:209 5:191]
-2018/04/11 14:19:33 Incoming mettics: 27 map[1:182 2:45 3:195 4:40 5:97]
-2018/04/11 14:19:33 Incoming mettics: 28 map[5:173 1:159 2:38 3:168 4:54]
-2018/04/11 14:19:33 Incoming mettics: 29 map[1:34 2:57 3:222 4:22 5:126]
-2018/04/11 14:19:33 Incoming mettics: 30 map[5:226 1:149 2:190 3:36 4:181]
-2018/04/11 14:19:33 Incoming mettics: 31 map[1:170 2:21 3:14 4:74 5:55]
-2018/04/11 14:19:33 Incoming mettics: 32 map[2:211 3:180 4:72 5:188 1:33]
-2018/04/11 14:19:33 Incoming mettics: 33 map[2:101 3:148 4:124 5:32 1:117]
-2018/04/11 14:19:33 Incoming mettics: 34 map[1:93 2:52 3:78 4:193 5:78]
-2018/04/11 14:19:33 Incoming mettics: 35 map[2:80 3:205 4:30 5:94 1:56]
-2018/04/11 14:19:33 Incoming mettics: 36 map[1:92 2:207 3:25 4:221 5:89]
-2018/04/11 14:19:33 Incoming mettics: 37 map[3:170 4:49 5:190 1:100 2:183]
-2018/04/11 14:19:33 Incoming mettics: 38 map[2:120 3:114 4:117 5:100 1:173]
-2018/04/11 14:19:33 Incoming mettics: 39 map[1:195 2:92 3:19 4:110 5:158]
-2018/04/11 14:19:33 Incoming mettics: 40 map[4:130 5:106 1:126 2:225 3:196]
-2018/04/11 14:19:33 Incoming mettics: 41 map[4:147 5:36 1:119 2:182 3:121]
-2018/04/11 14:19:33 Incoming mettics: 42 map[1:110 2:169 3:212 4:117 5:122]
-2018/04/11 14:19:33 Incoming mettics: 43 map[1:138 2:101 3:13 4:98 5:68]
-2018/04/11 14:19:33 Incoming mettics: 44 map[3:157 4:47 5:182 1:226 2:69]
-2018/04/11 14:19:33 Incoming mettics: 45 map[3:163 4:45 5:227 1:205 2:71]
-2018/04/11 14:19:33 Incoming mettics: 46 map[1:183 2:40 3:186 4:196 5:122]
-2018/04/11 14:19:33 Incoming mettics: 47 map[1:110 2:30 3:92 4:139 5:91]
-2018/04/11 14:19:33 Incoming mettics: 48 map[4:64 5:194 1:90 2:30 3:49]
-2018/04/11 14:19:33 Incoming mettics: 49 map[1:30 2:121 3:211 4:187 5:166]
-2018/04/11 14:19:33 Incoming mettics: 50 map[4:63 5:191 1:70 2:89 3:207]
-2018/04/11 14:19:33 Incoming mettics: 51 map[1:34 2:115 3:219 4:145 5:129]
-2018/04/11 14:19:33 Incoming mettics: 52 map[1:124 2:50 3:212 4:150 5:210]
-2018/04/11 14:19:33 Incoming mettics: 53 map[1:154 2:103 3:225 4:113 5:71]
-2018/04/11 14:19:33 Incoming mettics: 54 map[5:46 1:140 2:84 3:199 4:160]
-2018/04/11 14:19:33 Incoming mettics: 55 map[1:108 2:202 3:194 4:165 5:144]
-2018/04/11 14:19:33 Incoming mettics: 56 map[1:87 2:134 3:163 4:176 5:58]
-2018/04/11 14:19:33 Incoming mettics: 57 map[1:182 2:50 3:72 4:181 5:47]
-2018/04/11 14:19:33 Incoming mettics: 58 map[2:115 3:72 4:129 5:102 1:161]
-2018/04/11 14:19:33 Incoming mettics: 59 map[3:71 4:165 5:161 1:139 2:41]
-2018/04/11 14:19:33 Incoming mettics: 60 map[1:13 2:143 3:116 4:109 5:217]
-2018/04/11 14:19:33 Incoming mettics: 61 map[1:158 2:118 3:38 4:143 5:184]
-2018/04/11 14:19:33 Incoming mettics: 62 map[1:194 2:205 3:124 4:116 5:127]
-2018/04/11 14:19:33 Incoming mettics: 63 map[4:188 5:149 1:216 2:17 3:84]
-2018/04/11 14:19:33 Incoming mettics: 64 map[1:76 2:93 3:214 4:117 5:147]
-2018/04/11 14:19:33 Incoming mettics: 65 map[1:184 2:109 3:61 4:196 5:173]
-2018/04/11 14:19:33 Incoming mettics: 66 map[1:218 2:106 3:96 4:27 5:162]
-2018/04/11 14:19:33 Incoming mettics: 67 map[1:146 2:21 3:215 4:12 5:59]
-2018/04/11 14:19:33 Incoming mettics: 68 map[4:219 5:198 1:128 2:77 3:160]
-2018/04/11 14:19:33 Incoming mettics: 69 map[4:208 5:175 1:109 2:211 3:172]
-2018/04/11 14:19:33 Incoming mettics: 70 map[5:31 1:121 2:203 3:30 4:90]
-2018/04/11 14:19:33 Incoming mettics: 71 map[5:66 1:75 2:86 3:159 4:56]
-2018/04/11 14:19:33 Incoming mettics: 72 map[1:145 2:30 3:144 4:167 5:217]
-2018/04/11 14:19:33 Incoming mettics: 73 map[3:123 4:210 5:158 1:108 2:165]
-2018/04/11 14:19:33 Incoming mettics: 74 map[3:48 4:214 5:112 1:41 2:215]
-2018/04/11 14:19:33 Incoming mettics: 75 map[1:93 2:112 3:23 4:42 5:223]
-2018/04/11 14:19:33 Incoming mettics: 76 map[1:228 2:57 3:26 4:198 5:23]
-2018/04/11 14:19:33 Incoming mettics: 77 map[1:81 2:224 3:216 4:70 5:181]
-2018/04/11 14:19:33 Incoming mettics: 78 map[3:32 4:144 5:53 1:162 2:107]
-2018/04/11 14:19:33 Incoming mettics: 79 map[1:220 2:16 3:137 4:52 5:134]
-2018/04/11 14:19:33 Incoming mettics: 80 map[5:55 1:191 2:163 3:88 4:146]
-2018/04/11 14:19:33 Incoming mettics: 81 map[1:92 2:175 3:184 4:56 5:89]
-2018/04/11 14:19:33 Incoming mettics: 82 map[4:49 5:37 1:134 2:170 3:54]
-2018/04/11 14:19:33 Incoming mettics: 83 map[5:85 1:74 2:27 3:43 4:184]
-2018/04/11 14:19:33 Incoming mettics: 84 map[5:209 1:70 2:159 3:124 4:175]
-2018/04/11 14:19:33 Incoming mettics: 85 map[1:151 2:21 3:21 4:115 5:139]
-2018/04/11 14:19:33 Incoming mettics: 86 map[1:93 2:145 3:42 4:122 5:45]
-2018/04/11 14:19:33 Incoming mettics: 87 map[1:47 2:92 3:143 4:27 5:129]
-2018/04/11 14:19:33 Incoming mettics: 88 map[2:30 3:75 4:16 5:64 1:137]
-2018/04/11 14:19:33 Incoming mettics: 89 map[3:204 4:132 5:43 1:174 2:53]
-2018/04/11 14:19:33 Incoming mettics: 90 map[4:25 5:44 1:224 2:100 3:60]
-2018/04/11 14:19:33 Incoming mettics: 91 map[1:153 2:140 3:119 4:227 5:35]
-2018/04/11 14:19:33 Incoming mettics: 92 map[3:168 4:44 5:69 1:81 2:178]
-2018/04/11 14:19:33 Incoming mettics: 93 map[3:137 4:196 5:180 1:104 2:171]
-2018/04/11 14:19:33 Incoming mettics: 94 map[1:171 2:117 3:171 4:179 5:198]
-2018/04/11 14:19:33 Incoming mettics: 95 map[3:171 4:50 5:223 1:90 2:164]
-2018/04/11 14:19:33 Incoming mettics: 96 map[1:46 2:116 3:145 4:180 5:122]
-2018/04/11 14:19:33 Incoming mettics: 97 map[5:16 1:23 2:104 3:129 4:215]
-2018/04/11 14:19:33 Incoming mettics: 98 map[4:66 5:157 1:71 2:94 3:113]
-2018/04/11 14:19:33 Incoming mettics: 99 map[1:138 2:213 3:175 4:116 5:149]
-2018/04/11 14:19:33 Connection created
-2018/04/11 14:19:36 Monitoring metrics!
-2018/04/11 14:19:36 Monitoring metrics: 1
-2018/04/11 14:19:36 Monitoring metrics: 2
-2018/04/11 14:19:36 Monitoring metrics: 3
-2018/04/11 14:19:36 Monitoring metrics: 4
-2018/04/11 14:19:36 Monitoring metrics: 5
-2018/04/11 14:19:36 Monitoring metrics: 6
-2018/04/11 14:19:36 Monitoring metrics: 7
-2018/04/11 14:19:36 Monitoring metrics: 8
-2018/04/11 14:19:36 Monitoring metrics: 9
-2018/04/11 14:19:36 Monitoring metrics: 10
-2018/04/11 14:19:36 Monitoring metrics: 11
-2018/04/11 14:19:36 Monitoring metrics: 12
-2018/04/11 14:19:36 Monitoring metrics: 13
-2018/04/11 14:19:36 Monitoring metrics: 14
-2018/04/11 14:19:36 Monitoring metrics: 15
-2018/04/11 14:19:36 Monitoring metrics: 16
-2018/04/11 14:19:36 Monitoring metrics: 17
-2018/04/11 14:19:36 Monitoring metrics: 18
-2018/04/11 14:19:36 Monitoring metrics: 19
-2018/04/11 14:19:36 Monitoring metrics: 20
-2018/04/11 14:19:36 Monitoring metrics: 21
-2018/04/11 14:19:36 Monitoring metrics: 22
-2018/04/11 14:19:36 Monitoring metrics: 23
-2018/04/11 14:19:36 Monitoring metrics: 24
-2018/04/11 14:19:36 Monitoring metrics: 25
-2018/04/11 14:19:36 Monitoring metrics: 26
-2018/04/11 14:19:36 Monitoring metrics: 27
-2018/04/11 14:19:36 Monitoring metrics: 28
-2018/04/11 14:19:36 Monitoring metrics: 29
-2018/04/11 14:19:36 Monitoring metrics: 30
-2018/04/11 14:19:36 Monitoring metrics: 31
-2018/04/11 14:19:36 Monitoring metrics: 32
-2018/04/11 14:19:36 Monitoring metrics: 33
-2018/04/11 14:19:36 Monitoring metrics: 34
-2018/04/11 14:19:36 Monitoring metrics: 35
-2018/04/11 14:19:36 Monitoring metrics: 36
-2018/04/11 14:19:36 Monitoring metrics: 37
-2018/04/11 14:19:36 Monitoring metrics: 38
-2018/04/11 14:19:36 Monitoring metrics: 39
-2018/04/11 14:19:36 Monitoring metrics: 40
-2018/04/11 14:19:36 Monitoring metrics: 41
-2018/04/11 14:19:36 Monitoring metrics: 42
-2018/04/11 14:19:36 Monitoring metrics: 43
-2018/04/11 14:19:36 Monitoring metrics: 44
-2018/04/11 14:19:36 Monitoring metrics: 45
-2018/04/11 14:19:36 Monitoring metrics: 46
-2018/04/11 14:19:36 Monitoring metrics: 47
-2018/04/11 14:19:36 Monitoring metrics: 48
-2018/04/11 14:19:36 Monitoring metrics: 49
-2018/04/11 14:19:36 Monitoring metrics: 50
-2018/04/11 14:19:36 Monitoring metrics: 51
-2018/04/11 14:19:36 Monitoring metrics: 52
-2018/04/11 14:19:36 Monitoring metrics: 53
-2018/04/11 14:19:36 Monitoring metrics: 54
-2018/04/11 14:19:36 Monitoring metrics: 55
-2018/04/11 14:19:36 Monitoring metrics: 56
-2018/04/11 14:19:36 Monitoring metrics: 57
-2018/04/11 14:19:36 Monitoring metrics: 58
-2018/04/11 14:19:36 Monitoring metrics: 59
-2018/04/11 14:19:36 Monitoring metrics: 60
-2018/04/11 14:19:36 Monitoring metrics: 61
-2018/04/11 14:19:36 Monitoring metrics: 62
-2018/04/11 14:19:36 Monitoring metrics: 63
-2018/04/11 14:19:36 Monitoring metrics: 64
-2018/04/11 14:19:36 Monitoring metrics: 65
-2018/04/11 14:19:36 Monitoring metrics: 66
-2018/04/11 14:19:36 Monitoring metrics: 67
-2018/04/11 14:19:36 Monitoring metrics: 68
-2018/04/11 14:19:36 Monitoring metrics: 69
-2018/04/11 14:19:36 Monitoring metrics: 70
-2018/04/11 14:19:36 Monitoring metrics: 71
-2018/04/11 14:19:36 Monitoring metrics: 72
-2018/04/11 14:19:36 Monitoring metrics: 73
-2018/04/11 14:19:36 Monitoring metrics: 74
-2018/04/11 14:19:36 Monitoring metrics: 75
-2018/04/11 14:19:36 Monitoring metrics: 76
-2018/04/11 14:19:36 Monitoring metrics: 77
-2018/04/11 14:19:36 Monitoring metrics: 78
-2018/04/11 14:19:36 Monitoring metrics: 79
-2018/04/11 14:19:36 Monitoring metrics: 80
-2018/04/11 14:19:36 Monitoring metrics: 81
-2018/04/11 14:19:36 Monitoring metrics: 82
-2018/04/11 14:19:36 Monitoring metrics: 83
-2018/04/11 14:19:36 Monitoring metrics: 84
-2018/04/11 14:19:36 Monitoring metrics: 85
-2018/04/11 14:19:36 Monitoring metrics: 86
-2018/04/11 14:19:36 Monitoring metrics: 87
-2018/04/11 14:19:36 Monitoring metrics: 88
-2018/04/11 14:19:36 Monitoring metrics: 89
-2018/04/11 14:19:36 Monitoring metrics: 90
-2018/04/11 14:19:36 Monitoring metrics: 91
-2018/04/11 14:19:36 Monitoring metrics: 92
-2018/04/11 14:19:36 Monitoring metrics: 93
-2018/04/11 14:19:36 Monitoring metrics: 94
-2018/04/11 14:19:36 Monitoring metrics: 95
-2018/04/11 14:19:36 Monitoring metrics: 96
-2018/04/11 14:19:36 Monitoring metrics: 97
-2018/04/11 14:19:36 Monitoring metrics: 98
-2018/04/11 14:19:36 Monitoring metrics: 99
-2018/04/11 14:19:38 Registering metrics from devices...
-2018/04/11 14:19:38 Incoming mettics: 1 map[3:220 4:106 5:170 1:190 2:224]
-2018/04/11 14:19:38 Incoming mettics: 2 map[3:89 4:76 5:183 1:141 2:44]
-2018/04/11 14:19:38 Incoming mettics: 3 map[1:155 2:91 3:152 4:229 5:184]
-2018/04/11 14:19:38 Incoming mettics: 4 map[1:91 2:184 3:91 4:200 5:15]
-2018/04/11 14:19:38 Incoming mettics: 5 map[5:209 1:118 2:54 3:130 4:206]
-2018/04/11 14:19:38 Incoming mettics: 6 map[4:26 5:152 1:152 2:26 3:123]
-2018/04/11 14:19:38 Incoming mettics: 7 map[1:31 2:105 3:207 4:13 5:147]
-2018/04/11 14:19:38 Incoming mettics: 8 map[1:168 2:182 3:89 4:145 5:163]
-2018/04/11 14:19:38 Incoming mettics: 9 map[4:62 5:118 1:90 2:197 3:164]
-2018/04/11 14:19:38 Incoming mettics: 10 map[5:56 1:67 2:217 3:179 4:22]
-2018/04/11 14:19:38 Incoming mettics: 11 map[2:174 3:146 4:24 5:39 1:219]
-2018/04/11 14:19:38 Incoming mettics: 12 map[1:213 2:12 3:74 4:129 5:100]
-2018/04/11 14:19:38 Incoming mettics: 13 map[1:29 2:203 3:110 4:64 5:55]
-2018/04/11 14:19:38 Incoming mettics: 14 map[1:191 2:203 3:11 4:178 5:147]
-2018/04/11 14:19:38 Incoming mettics: 15 map[1:34 2:172 3:113 4:131 5:140]
-2018/04/11 14:19:38 Incoming mettics: 16 map[1:25 2:210 3:62 4:192 5:101]
-2018/04/11 14:19:38 Incoming mettics: 17 map[1:188 2:51 3:197 4:82 5:85]
-2018/04/11 14:19:38 Incoming mettics: 18 map[1:66 2:122 3:193 4:25 5:159]
-2018/04/11 14:19:38 Incoming mettics: 19 map[1:70 2:104 3:228 4:160 5:67]
-2018/04/11 14:19:38 Incoming mettics: 20 map[3:40 4:92 5:78 1:112 2:144]
-2018/04/11 14:19:38 Incoming mettics: 21 map[2:216 3:26 4:115 5:118 1:66]
-2018/04/11 14:19:38 Incoming mettics: 22 map[1:172 2:113 3:81 4:131 5:103]
-2018/04/11 14:19:38 Incoming mettics: 23 map[1:59 2:83 3:60 4:127 5:216]
-2018/04/11 14:19:38 Incoming mettics: 24 map[4:95 5:151 1:51 2:100 3:68]
-2018/04/11 14:19:38 Incoming mettics: 25 map[1:68 2:148 3:222 4:65 5:125]
-2018/04/11 14:19:38 Incoming mettics: 26 map[2:58 3:126 4:127 5:24 1:171]
-2018/04/11 14:19:38 Incoming mettics: 27 map[1:89 2:183 3:41 4:211 5:170]
-2018/04/11 14:19:38 Incoming mettics: 28 map[1:22 2:154 3:184 4:68 5:193]
-2018/04/11 14:19:38 Incoming mettics: 29 map[2:218 3:60 4:170 5:22 1:145]
-2018/04/11 14:19:38 Incoming mettics: 30 map[3:69 4:50 5:64 1:160 2:56]
-2018/04/11 14:19:38 Incoming mettics: 31 map[2:221 3:196 4:211 5:52 1:220]
-2018/04/11 14:19:38 Incoming mettics: 32 map[1:130 2:144 3:103 4:52 5:48]
-2018/04/11 14:19:38 Incoming mettics: 33 map[4:103 5:168 1:87 2:63 3:150]
-2018/04/11 14:19:38 Incoming mettics: 34 map[4:221 5:47 1:191 2:116 3:38]
-2018/04/11 14:19:38 Incoming mettics: 35 map[3:37 4:194 5:100 1:212 2:207]
-2018/04/11 14:19:38 Incoming mettics: 36 map[3:75 4:25 5:218 1:177 2:152]
-2018/04/11 14:19:38 Incoming mettics: 37 map[1:40 2:134 3:72 4:222 5:185]
-2018/04/11 14:19:38 Incoming mettics: 38 map[5:123 1:144 2:117 3:123 4:31]
-2018/04/11 14:19:38 Incoming mettics: 39 map[3:220 4:155 5:17 1:91 2:25]
-2018/04/11 14:19:38 Incoming mettics: 40 map[2:128 3:169 4:145 5:85 1:49]
-2018/04/11 14:19:38 Incoming mettics: 41 map[5:163 1:113 2:90 3:130 4:49]
-2018/04/11 14:19:38 Incoming mettics: 42 map[1:61 2:202 3:88 4:191 5:96]
-2018/04/11 14:19:38 Incoming mettics: 43 map[1:229 2:25 3:15 4:161 5:18]
-2018/04/11 14:19:38 Incoming mettics: 44 map[5:110 1:44 2:23 3:186 4:65]
-2018/04/11 14:19:38 Incoming mettics: 45 map[1:186 2:216 3:193 4:118 5:91]
-2018/04/11 14:19:38 Incoming mettics: 46 map[5:37 1:162 2:189 3:153 4:113]
-2018/04/11 14:19:38 Incoming mettics: 47 map[5:120 1:222 2:113 3:113 4:15]
-2018/04/11 14:19:38 Incoming mettics: 48 map[1:67 2:171 3:31 4:137 5:158]
-2018/04/11 14:19:38 Incoming mettics: 49 map[1:117 2:89 3:64 4:206 5:82]
-2018/04/11 14:19:38 Incoming mettics: 50 map[1:134 2:198 3:127 4:50 5:102]
-2018/04/11 14:19:38 Incoming mettics: 51 map[4:94 5:108 1:148 2:145 3:27]
-2018/04/11 14:19:38 Incoming mettics: 52 map[2:77 3:193 4:204 5:62 1:158]
-2018/04/11 14:19:38 Incoming mettics: 53 map[1:81 2:211 3:108 4:82 5:98]
-2018/04/11 14:19:38 Incoming mettics: 54 map[1:110 2:111 3:181 4:51 5:164]
-2018/04/11 14:19:38 Incoming mettics: 55 map[1:17 2:226 3:188 4:214 5:74]
-2018/04/11 14:19:38 Incoming mettics: 56 map[1:47 2:128 3:33 4:184 5:45]
-2018/04/11 14:19:38 Incoming mettics: 57 map[5:218 1:52 2:145 3:229 4:157]
-2018/04/11 14:19:38 Incoming mettics: 58 map[3:46 4:68 5:199 1:172 2:25]
-2018/04/11 14:19:38 Incoming mettics: 59 map[4:72 5:214 1:82 2:211 3:105]
-2018/04/11 14:19:38 Incoming mettics: 60 map[1:170 2:99 3:153 4:194 5:130]
-2018/04/11 14:19:38 Incoming mettics: 61 map[4:45 5:115 1:10 2:49 3:117]
-2018/04/11 14:19:38 Incoming mettics: 62 map[1:88 2:93 3:195 4:163 5:81]
-2018/04/11 14:19:38 Incoming mettics: 63 map[5:88 1:210 2:22 3:52 4:42]
-2018/04/11 14:19:38 Incoming mettics: 64 map[1:14 2:88 3:219 4:158 5:199]
-2018/04/11 14:19:38 Incoming mettics: 65 map[1:66 2:66 3:117 4:22 5:178]
-2018/04/11 14:19:38 Incoming mettics: 66 map[1:14 2:83 3:36 4:53 5:91]
-2018/04/11 14:19:38 Incoming mettics: 67 map[1:43 2:14 3:75 4:90 5:136]
-2018/04/11 14:19:38 Incoming mettics: 68 map[1:145 2:213 3:228 4:221 5:91]
-2018/04/11 14:19:38 Incoming mettics: 69 map[1:130 2:222 3:28 4:54 5:186]
-2018/04/11 14:19:38 Incoming mettics: 70 map[1:22 2:213 3:221 4:45 5:181]
-2018/04/11 14:19:38 Incoming mettics: 71 map[2:88 3:54 4:11 5:33 1:49]
-2018/04/11 14:19:38 Incoming mettics: 72 map[4:146 5:99 1:86 2:171 3:146]
-2018/04/11 14:19:38 Incoming mettics: 73 map[5:93 1:26 2:207 3:184 4:107]
-2018/04/11 14:19:38 Incoming mettics: 74 map[5:59 1:76 2:211 3:114 4:153]
-2018/04/11 14:19:38 Incoming mettics: 75 map[3:154 4:160 5:212 1:181 2:73]
-2018/04/11 14:19:38 Incoming mettics: 76 map[5:14 1:61 2:177 3:180 4:27]
-2018/04/11 14:19:38 Incoming mettics: 77 map[1:163 2:167 3:133 4:31 5:48]
-2018/04/11 14:19:38 Incoming mettics: 78 map[2:194 3:226 4:176 5:185 1:147]
-2018/04/11 14:19:38 Incoming mettics: 79 map[3:35 4:109 5:211 1:15 2:75]
-2018/04/11 14:19:38 Incoming mettics: 80 map[4:57 5:53 1:173 2:34 3:209]
-2018/04/11 14:19:38 Incoming mettics: 81 map[1:26 2:220 3:153 4:120 5:177]
-2018/04/11 14:19:38 Incoming mettics: 82 map[1:197 2:142 3:174 4:88 5:41]
-2018/04/11 14:19:38 Incoming mettics: 83 map[3:122 4:33 5:179 1:215 2:207]
-2018/04/11 14:19:38 Incoming mettics: 84 map[2:124 3:139 4:68 5:102 1:194]
-2018/04/11 14:19:38 Incoming mettics: 85 map[5:227 1:108 2:100 3:50 4:228]
-2018/04/11 14:19:38 Incoming mettics: 86 map[1:155 2:63 3:119 4:145 5:60]
-2018/04/11 14:19:38 Incoming mettics: 87 map[1:142 2:121 3:222 4:119 5:46]
-2018/04/11 14:19:38 Incoming mettics: 88 map[1:117 2:198 3:156 4:68 5:203]
-2018/04/11 14:19:38 Incoming mettics: 89 map[3:116 4:223 5:124 1:208 2:153]
-2018/04/11 14:19:38 Incoming mettics: 90 map[5:14 1:191 2:23 3:218 4:176]
-2018/04/11 14:19:38 Incoming mettics: 91 map[5:229 1:64 2:213 3:30 4:21]
-2018/04/11 14:19:38 Incoming mettics: 92 map[1:202 2:167 3:229 4:49 5:69]
-2018/04/11 14:19:38 Incoming mettics: 93 map[1:135 2:53 3:188 4:100 5:107]
-2018/04/11 14:19:38 Incoming mettics: 94 map[1:47 2:212 3:152 4:221 5:42]
-2018/04/11 14:19:38 Incoming mettics: 95 map[2:132 3:115 4:48 5:135 1:38]
-2018/04/11 14:19:38 Incoming mettics: 96 map[1:43 2:198 3:195 4:46 5:21]
-2018/04/11 14:19:38 Incoming mettics: 97 map[1:225 2:226 3:111 4:44 5:191]
-2018/04/11 14:19:38 Incoming mettics: 98 map[4:92 5:40 1:199 2:154 3:168]
-2018/04/11 14:19:38 Incoming mettics: 99 map[5:203 1:87 2:11 3:114 4:181]
-2018/04/11 14:19:39 Monitoring metrics!
-2018/04/11 14:19:39 Monitoring metrics: 1
-2018/04/11 14:19:39 Monitoring metrics: 2
-2018/04/11 14:19:39 Monitoring metrics: 3
-2018/04/11 14:19:39 Monitoring metrics: 4
-2018/04/11 14:19:39 Monitoring metrics: 5
-2018/04/11 14:19:39 Monitoring metrics: 6
-2018/04/11 14:19:39 Monitoring metrics: 7
-2018/04/11 14:19:39 Monitoring metrics: 8
-2018/04/11 14:19:39 Monitoring metrics: 9
-2018/04/11 14:19:39 Monitoring metrics: 10
-2018/04/11 14:19:39 Monitoring metrics: 11
-2018/04/11 14:19:39 Monitoring metrics: 12
-2018/04/11 14:19:39 Monitoring metrics: 13
-2018/04/11 14:19:39 Monitoring metrics: 14
-2018/04/11 14:19:39 Monitoring metrics: 15
-2018/04/11 14:19:39 Monitoring metrics: 16
-2018/04/11 14:19:39 Monitoring metrics: 17
-2018/04/11 14:19:39 Monitoring metrics: 18
-2018/04/11 14:19:39 Monitoring metrics: 19
-2018/04/11 14:19:39 Monitoring metrics: 20
-2018/04/11 14:19:39 Monitoring metrics: 21
-2018/04/11 14:19:39 Monitoring metrics: 22
-2018/04/11 14:19:39 Monitoring metrics: 23
-2018/04/11 14:19:39 Monitoring metrics: 24
-2018/04/11 14:19:39 Monitoring metrics: 25
-2018/04/11 14:19:39 Monitoring metrics: 26
-2018/04/11 14:19:39 Monitoring metrics: 27
-2018/04/11 14:19:39 Monitoring metrics: 28
-2018/04/11 14:19:39 Monitoring metrics: 29
-2018/04/11 14:19:39 Monitoring metrics: 30
-2018/04/11 14:19:39 Monitoring metrics: 31
-2018/04/11 14:19:39 Monitoring metrics: 32
-2018/04/11 14:19:39 Monitoring metrics: 33
-2018/04/11 14:19:39 Monitoring metrics: 34
-2018/04/11 14:19:39 Monitoring metrics: 35
-2018/04/11 14:19:39 Monitoring metrics: 36
-2018/04/11 14:19:39 Monitoring metrics: 37
-2018/04/11 14:19:39 Monitoring metrics: 38
-2018/04/11 14:19:39 Monitoring metrics: 39
-2018/04/11 14:19:39 Monitoring metrics: 40
-2018/04/11 14:19:39 Monitoring metrics: 41
-2018/04/11 14:19:39 Monitoring metrics: 42
-2018/04/11 14:19:39 Monitoring metrics: 43
-2018/04/11 14:19:39 Monitoring metrics: 44
-2018/04/11 14:19:39 Monitoring metrics: 45
-2018/04/11 14:19:39 Monitoring metrics: 46
-2018/04/11 14:19:39 Monitoring metrics: 47
-2018/04/11 14:19:39 Monitoring metrics: 48
-2018/04/11 14:19:39 Monitoring metrics: 49
-2018/04/11 14:19:39 Monitoring metrics: 50
-2018/04/11 14:19:39 Monitoring metrics: 51
-2018/04/11 14:19:39 Monitoring metrics: 52
-2018/04/11 14:19:39 Monitoring metrics: 53
-2018/04/11 14:19:39 Monitoring metrics: 54
-2018/04/11 14:19:39 Monitoring metrics: 55
-2018/04/11 14:19:39 Monitoring metrics: 56
-2018/04/11 14:19:39 Monitoring metrics: 57
-2018/04/11 14:19:39 Monitoring metrics: 58
-2018/04/11 14:19:39 Monitoring metrics: 59
-2018/04/11 14:19:39 Monitoring metrics: 60
-2018/04/11 14:19:39 Monitoring metrics: 61
-2018/04/11 14:19:39 Monitoring metrics: 62
-2018/04/11 14:19:39 Monitoring metrics: 63
-2018/04/11 14:19:39 Monitoring metrics: 64
-2018/04/11 14:19:39 Monitoring metrics: 65
-2018/04/11 14:19:39 Monitoring metrics: 66
-2018/04/11 14:19:39 Monitoring metrics: 67
-2018/04/11 14:19:39 Monitoring metrics: 68
-2018/04/11 14:19:39 Monitoring metrics: 69
-2018/04/11 14:19:39 Monitoring metrics: 70
-2018/04/11 14:19:39 Monitoring metrics: 71
-2018/04/11 14:19:39 Monitoring metrics: 72
-2018/04/11 14:19:39 Monitoring metrics: 73
-2018/04/11 14:19:39 Monitoring metrics: 74
-2018/04/11 14:19:39 Monitoring metrics: 75
-2018/04/11 14:19:39 Monitoring metrics: 76
-2018/04/11 14:19:39 Monitoring metrics: 77
-2018/04/11 14:19:39 Monitoring metrics: 78
-2018/04/11 14:19:39 Monitoring metrics: 79
-2018/04/11 14:19:39 Monitoring metrics: 80
-2018/04/11 14:19:39 Monitoring metrics: 81
-2018/04/11 14:19:39 Monitoring metrics: 82
-2018/04/11 14:19:39 Monitoring metrics: 83
-2018/04/11 14:19:39 Monitoring metrics: 84
-2018/04/11 14:19:39 Monitoring metrics: 85
-2018/04/11 14:19:39 Monitoring metrics: 86
-2018/04/11 14:19:39 Monitoring metrics: 87
-2018/04/11 14:19:39 Monitoring metrics: 88
-2018/04/11 14:19:39 Monitoring metrics: 89
-2018/04/11 14:19:39 Monitoring metrics: 90
-2018/04/11 14:19:39 Monitoring metrics: 91
-2018/04/11 14:19:39 Monitoring metrics: 92
-2018/04/11 14:19:39 Monitoring metrics: 93
-2018/04/11 14:19:39 Monitoring metrics: 94
-2018/04/11 14:19:39 Monitoring metrics: 95
-2018/04/11 14:19:39 Monitoring metrics: 96
-2018/04/11 14:19:39 Monitoring metrics: 97
-2018/04/11 14:19:39 Monitoring metrics: 98
-2018/04/11 14:19:39 Monitoring metrics: 99
-2018/04/11 14:19:42 Monitoring metrics!
-2018/04/11 14:19:42 Monitoring metrics: 1
-2018/04/11 14:19:42 Monitoring metrics: 2
-2018/04/11 14:19:42 Monitoring metrics: 3
-2018/04/11 14:19:42 Monitoring metrics: 4
-2018/04/11 14:19:42 Monitoring metrics: 5
-2018/04/11 14:19:42 Monitoring metrics: 6
-2018/04/11 14:19:42 Monitoring metrics: 7
-2018/04/11 14:19:42 Monitoring metrics: 8
-2018/04/11 14:19:42 Monitoring metrics: 9
-2018/04/11 14:19:42 Monitoring metrics: 10
-2018/04/11 14:19:42 Monitoring metrics: 11
-2018/04/11 14:19:42 Monitoring metrics: 12
-2018/04/11 14:19:42 Monitoring metrics: 13
-2018/04/11 14:19:42 Monitoring metrics: 14
-2018/04/11 14:19:42 Monitoring metrics: 15
-2018/04/11 14:19:42 Monitoring metrics: 16
-2018/04/11 14:19:42 Monitoring metrics: 17
-2018/04/11 14:19:42 Monitoring metrics: 18
-2018/04/11 14:19:42 Monitoring metrics: 19
-2018/04/11 14:19:42 Monitoring metrics: 20
-2018/04/11 14:19:42 Monitoring metrics: 21
-2018/04/11 14:19:42 Monitoring metrics: 22
-2018/04/11 14:19:42 Monitoring metrics: 23
-2018/04/11 14:19:42 Monitoring metrics: 24
-2018/04/11 14:19:42 Monitoring metrics: 25
-2018/04/11 14:19:42 Monitoring metrics: 26
-2018/04/11 14:19:42 Monitoring metrics: 27
-2018/04/11 14:19:42 Monitoring metrics: 28
-2018/04/11 14:19:42 Monitoring metrics: 29
-2018/04/11 14:19:42 Monitoring metrics: 30
-2018/04/11 14:19:42 Monitoring metrics: 31
-2018/04/11 14:19:42 Monitoring metrics: 32
-2018/04/11 14:19:42 Monitoring metrics: 33
-2018/04/11 14:19:42 Monitoring metrics: 34
-2018/04/11 14:19:42 Monitoring metrics: 35
-2018/04/11 14:19:42 Monitoring metrics: 36
-2018/04/11 14:19:42 Monitoring metrics: 37
-2018/04/11 14:19:42 Monitoring metrics: 38
-2018/04/11 14:19:42 Monitoring metrics: 39
-2018/04/11 14:19:42 Monitoring metrics: 40
-2018/04/11 14:19:42 Monitoring metrics: 41
-2018/04/11 14:19:42 Monitoring metrics: 42
-2018/04/11 14:19:42 Monitoring metrics: 43
-2018/04/11 14:19:42 Monitoring metrics: 44
-2018/04/11 14:19:42 Monitoring metrics: 45
-2018/04/11 14:19:42 Monitoring metrics: 46
-2018/04/11 14:19:42 Monitoring metrics: 47
-2018/04/11 14:19:42 Monitoring metrics: 48
-2018/04/11 14:19:42 Monitoring metrics: 49
-2018/04/11 14:19:42 Monitoring metrics: 50
-2018/04/11 14:19:42 Monitoring metrics: 51
-2018/04/11 14:19:42 Monitoring metrics: 52
-2018/04/11 14:19:42 Monitoring metrics: 53
-2018/04/11 14:19:42 Monitoring metrics: 54
-2018/04/11 14:19:42 Monitoring metrics: 55
-2018/04/11 14:19:42 Monitoring metrics: 56
-2018/04/11 14:19:42 Monitoring metrics: 57
-2018/04/11 14:19:42 Monitoring metrics: 58
-2018/04/11 14:19:42 Monitoring metrics: 59
-2018/04/11 14:19:42 Monitoring metrics: 60
-2018/04/11 14:19:42 Monitoring metrics: 61
-2018/04/11 14:19:42 Monitoring metrics: 62
-2018/04/11 14:19:42 Monitoring metrics: 63
-2018/04/11 14:19:42 Monitoring metrics: 64
-2018/04/11 14:19:42 Monitoring metrics: 65
-2018/04/11 14:19:42 Monitoring metrics: 66
-2018/04/11 14:19:42 Monitoring metrics: 67
-2018/04/11 14:19:42 Monitoring metrics: 68
-2018/04/11 14:19:42 Monitoring metrics: 69
-2018/04/11 14:19:42 Monitoring metrics: 70
-2018/04/11 14:19:42 Monitoring metrics: 71
-2018/04/11 14:19:42 Monitoring metrics: 72
-2018/04/11 14:19:42 Monitoring metrics: 73
-2018/04/11 14:19:42 Monitoring metrics: 74
-2018/04/11 14:19:42 Monitoring metrics: 75
-2018/04/11 14:19:42 Monitoring metrics: 76
-2018/04/11 14:19:42 Monitoring metrics: 77
-2018/04/11 14:19:42 Monitoring metrics: 78
-2018/04/11 14:19:42 Monitoring metrics: 79
-2018/04/11 14:19:42 Monitoring metrics: 80
-2018/04/11 14:19:42 Monitoring metrics: 81
-2018/04/11 14:19:42 Monitoring metrics: 82
-2018/04/11 14:19:42 Monitoring metrics: 83
-2018/04/11 14:19:42 Monitoring metrics: 84
-2018/04/11 14:19:42 Monitoring metrics: 85
-2018/04/11 14:19:42 Monitoring metrics: 86
-2018/04/11 14:19:42 Monitoring metrics: 87
-2018/04/11 14:19:42 Monitoring metrics: 88
-2018/04/11 14:19:42 Monitoring metrics: 89
-2018/04/11 14:19:42 Monitoring metrics: 90
-2018/04/11 14:19:42 Monitoring metrics: 91
-2018/04/11 14:19:42 Monitoring metrics: 92
-2018/04/11 14:19:42 Monitoring metrics: 93
-2018/04/11 14:19:42 Monitoring metrics: 94
-2018/04/11 14:19:42 Monitoring metrics: 95
-2018/04/11 14:19:42 Monitoring metrics: 96
-2018/04/11 14:19:42 Monitoring metrics: 97
-2018/04/11 14:19:42 Monitoring metrics: 98
-2018/04/11 14:19:42 Monitoring metrics: 99
-2018/04/11 14:19:42 Connection closed
-2018/04/11 14:19:42 Connection closed
-2018/04/11 14:19:42 Daemon process is killed
+2018/04/11 14:45:32 Connection created
+2018/04/11 14:45:32 Registering metrics from devices...
+2018/04/11 14:45:32 Connection created
+2018/04/11 14:45:32 Incoming mettics: 1 map[5:6 1:6 2:7 3:7 4:9]
+2018/04/11 14:45:32 Incoming mettics: 2 map[2:5 3:5 4:6 5:5 1:8]
+2018/04/11 14:45:32 Incoming mettics: 3 map[5:8 1:9 2:6 3:7 4:9]
+2018/04/11 14:45:32 Incoming mettics: 4 map[2:6 3:5 4:7 5:6 1:9]
+2018/04/11 14:45:35 Monitoring metrics!
+2018/04/11 14:45:35 Monitoring metrics: 1
+2018/04/11 14:45:35 Monitoring metrics: 2
+2018/04/11 14:45:35 Monitoring metrics: 3
+2018/04/11 14:45:35 Monitoring metrics: 4
+2018/04/11 14:45:37 Registering metrics from devices...
+2018/04/11 14:45:37 Incoming mettics: 1 map[2:6 3:8 4:8 5:7 1:5]
+2018/04/11 14:45:37 Incoming mettics: 2 map[1:7 2:7 3:8 4:5 5:5]
+2018/04/11 14:45:37 Incoming mettics: 3 map[3:7 4:6 5:9 1:6 2:8]
+2018/04/11 14:45:37 Incoming mettics: 4 map[1:6 2:7 3:6 4:5 5:6]
+2018/04/11 14:45:38 Monitoring metrics!
+2018/04/11 14:45:38 Monitoring metrics: 1
+2018/04/11 14:45:38 Monitoring metrics: 2
+2018/04/11 14:45:38 Monitoring metrics: 3
+2018/04/11 14:45:38 Monitoring metrics: 4
+2018/04/11 14:45:41 Monitoring metrics!
+2018/04/11 14:45:41 Monitoring metrics: 1
+2018/04/11 14:45:41 Monitoring metrics: 2
+2018/04/11 14:45:41 Monitoring metrics: 3
+2018/04/11 14:45:41 Monitoring metrics: 4
+2018/04/11 14:45:42 Registering metrics from devices...
+2018/04/11 14:45:42 Incoming mettics: 1 map[1:8 2:5 3:9 4:8 5:8]
+2018/04/11 14:45:42 Incoming mettics: 2 map[4:9 5:8 1:7 2:8 3:9]
+2018/04/11 14:45:42 Incoming mettics: 3 map[1:7 2:6 3:9 4:9 5:5]
+2018/04/11 14:45:42 Incoming mettics: 4 map[1:5 2:8 3:8 4:8 5:5]
+2018/04/11 14:45:44 Monitoring metrics!
+2018/04/11 14:45:44 Monitoring metrics: 1
+2018/04/11 14:45:44 Monitoring metrics: 2
+2018/04/11 14:45:44 Monitoring metrics: 3
+2018/04/11 14:45:44 Monitoring metrics: 4
+2018/04/11 14:45:47 Monitoring metrics!
+2018/04/11 14:45:47 Monitoring metrics: 1
+2018/04/11 14:45:47 Monitoring metrics: 2
+2018/04/11 14:45:47 Monitoring metrics: 3
+2018/04/11 14:45:47 Monitoring metrics: 4
+2018/04/11 14:45:47 Registering metrics from devices...
+2018/04/11 14:45:47 Incoming mettics: 1 map[5:6 1:6 2:5 3:5 4:6]
+2018/04/11 14:45:47 Incoming mettics: 2 map[3:7 4:8 5:6 1:8 2:6]
+2018/04/11 14:45:47 Incoming mettics: 3 map[5:7 1:8 2:6 3:7 4:8]
+2018/04/11 14:45:47 Incoming mettics: 4 map[4:6 5:5 1:9 2:7 3:8]
+2018/04/11 14:45:50 Monitoring metrics!
+2018/04/11 14:45:50 Monitoring metrics: 1
+2018/04/11 14:45:50 Monitoring metrics: 2
+2018/04/11 14:45:50 Monitoring metrics: 3
+2018/04/11 14:45:50 Monitoring metrics: 4
+2018/04/11 14:45:52 Registering metrics from devices...
+2018/04/11 14:45:52 Incoming mettics: 1 map[1:8 2:8 3:7 4:8 5:6]
+2018/04/11 14:45:52 Incoming mettics: 2 map[1:9 2:8 3:8 4:6 5:7]
+2018/04/11 14:45:52 Incoming mettics: 3 map[1:8 2:6 3:6 4:7 5:5]
+2018/04/11 14:45:52 Incoming mettics: 4 map[3:8 4:5 5:8 1:8 2:7]
+2018/04/11 14:45:53 Monitoring metrics!
+2018/04/11 14:45:53 Monitoring metrics: 1
+2018/04/11 14:45:53 Monitoring metrics: 2
+2018/04/11 14:45:53 Monitoring metrics: 3
+2018/04/11 14:45:53 Monitoring metrics: 4
+2018/04/11 14:45:56 Monitoring metrics!
+2018/04/11 14:45:56 Monitoring metrics: 1
+2018/04/11 14:45:56 Monitoring metrics: 2
+2018/04/11 14:45:56 Monitoring metrics: 3
+2018/04/11 14:45:56 Monitoring metrics: 4
+2018/04/11 14:45:57 Registering metrics from devices...
+2018/04/11 14:45:57 Incoming mettics: 1 map[1:5 2:6 3:5 4:7 5:7]
+2018/04/11 14:45:57 Incoming mettics: 2 map[2:5 3:5 4:5 5:7 1:5]
+2018/04/11 14:45:57 Incoming mettics: 3 map[1:8 2:8 3:6 4:7 5:9]
+2018/04/11 14:45:57 Incoming mettics: 4 map[2:7 3:7 4:6 5:9 1:7]
+2018/04/11 14:45:58 Connection closed
+2018/04/11 14:45:58 Connection closed
+2018/04/11 14:45:58 Daemon process is killed

@@ -44,7 +44,7 @@ func GetDefaultConfig() Config {
 }
 
 // GetConfigurationFromProperties gets database configuration properties from  /config dir
-func GetConfigurationFromProperties() Config {
+func GetConfigFromProperties() Config {
 	file, err := os.Open("./config/config.database_properties.json")
 	if err != nil {
 		log.Println(err.Error())

@@ -2,7 +2,6 @@ package db
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"model"
 	"os"
@@ -11,12 +10,10 @@ import (
 var metrics map[int]model.DeviceMetrics
 
 func init() {
-	fmt.Println("Init!")
 	metrics = make(map[int]model.DeviceMetrics, 1000)
 	for _, value := range parseMetricsJSON() {
 		metrics[value.DeviceID] = value
 	}
-	fmt.Println("_------------------------_______________-----", metrics)
 }
 
 func parseMetricsJSON() []model.DeviceMetrics {
