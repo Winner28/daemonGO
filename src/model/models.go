@@ -1,5 +1,7 @@
 package model
 
+import "time"
+
 // UsersRepository rep
 type UsersRepository interface {
 	GetByID(ID int)
@@ -39,13 +41,15 @@ type Device struct {
 
 // DeviceMetrics struct represents a device_metrics table in database
 type DeviceMetrics struct {
-	id       int
-	DeviceID int `json:"device_id"`
-	Metric1  int `json:"metric1"`
-	Metric2  int `json:"metric2"`
-	Metric3  int `json:"metric3"`
-	Metric4  int `json:"metric4"`
-	Metric5  int `json:"metric5"`
+	ID         int
+	DeviceID   int `json:"device_id"`
+	Metric1    int `json:"metric1"`
+	Metric2    int `json:"metric2"`
+	Metric3    int `json:"metric3"`
+	Metric4    int `json:"metric4"`
+	Metric5    int `json:"metric5"`
+	LocalTime  time.Time
+	ServerTime time.Time
 }
 
 // DeviceAlerts struct represents a device_alerts table in database

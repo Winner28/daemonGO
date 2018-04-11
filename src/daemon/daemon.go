@@ -41,5 +41,4 @@ func StartDaemon() {
 		conn.CloseConnection()
 	}
 	log.Println("Daemon process is killed")
-
 }
