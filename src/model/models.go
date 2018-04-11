@@ -55,18 +55,9 @@ type DeviceAlerts struct {
 	message  string
 }
 
-func (deviceMetrics DeviceMetrics) GetByID(ID int) {
-
-}
-
-func (deviceMetrics DeviceMetrics) GetByDeviceID(ID int) {
-
-}
-
-func (deviceMetrics DeviceMetrics) Create(ID int) {
-
-}
-
-func (deviceMetrics DeviceMetrics) Update(ID int, device Device) {
-
+// DeviceMetricsRange range
+type DeviceMetricsRange struct {
+	DeviceID int `json:"device_id"`
+	Min      int `json:"min"`
+	Max      int `json:"max"`
 }
