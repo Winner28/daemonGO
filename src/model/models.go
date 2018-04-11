@@ -2,29 +2,6 @@ package model
 
 import "time"
 
-// UsersRepository rep
-type UsersRepository interface {
-	GetByID(ID int)
-}
-
-// DevicesRepository rep
-type DevicesRepository interface {
-	GetByID(ID int)
-}
-
-// DeviceMetricsRepository rep
-type DeviceMetricsRepository interface {
-	GetByID(ID int)
-	GetByDeviceID(ID int)
-	Create(device Device)
-	Update(ID int, device Device)
-}
-
-// DeviceAlertsRepository rep
-type DeviceAlertsRepository interface {
-	Create()
-}
-
 // User struct represents a user table in database
 type User struct {
 	id    int
