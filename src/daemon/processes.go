@@ -46,12 +46,13 @@ func registerMetricsFromDevices(from, to int) {
 	for {
 		log.Println("Registering metrics from devices...")
 		// симулируется ситуацию отправки метрик с определенного устройства
+		// для этого в файле config.metrics_range указан диапазон значений (min-max)
 		for ID := from; ID < to; ID++ {
 			metrics := make(map[int]int)
 			for i := 1; i <= 5; i++ {
 				metrics[i] = getDeviceMetricsForDevice(ID)
 			}
-			log.Println("Incoming mettics:", ID, metrics)
+			log.Println("Updating metrics:", ID, metrics)
 			handler.UpdateMetrics(ID, metrics)
 		}
 		time.Sleep(5 * time.Second)
