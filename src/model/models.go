@@ -1,4 +1,4 @@
-package service
+package model
 
 // UsersRepository rep
 type UsersRepository interface {
@@ -40,12 +40,12 @@ type Device struct {
 // DeviceMetrics struct represents a device_metrics table in database
 type DeviceMetrics struct {
 	id       int
-	deviceID int
-	metric1  int
-	metric2  int
-	metric3  int
-	metric4  int
-	metric5  int
+	DeviceID int `json:"device_id"`
+	Metric1  int `json:"metric1"`
+	Metric2  int `json:"metric2"`
+	Metric3  int `json:"metric3"`
+	Metric4  int `json:"metric4"`
+	Metric5  int `json:"metric5"`
 }
 
 // DeviceAlerts struct represents a device_alerts table in database

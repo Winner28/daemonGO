@@ -1,0 +1,28 @@
+
+[
+    {
+        "device_id": 1,
+        "min": 5,
+        "max": 10
+    },
+    {
+        "device_id": 2,
+		"min": 5,
+        "max": 10
+    },
+    {
+        "device_id": 3,
+        "min": 5,
+        "max": 10
+    },
+    {
+        "device_id": 4,
+		"min": 5,
+        "max": 10
+	},
+	{
+        "device_id": 5,
+		"min": 5,
+        "max": 10
+    }
+]

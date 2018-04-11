@@ -2,9 +2,11 @@ package db
 
 import (
 	"database/sql"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
+	"os"
 
 	// psql
 	_ "github.com/lib/pq"
@@ -18,16 +20,44 @@ type Handler struct {
 
 // Config represents config of db
 type Config struct {
-	Host     string
-	Port     string
-	User     string
-	Password string
-	Database string
+	Host     string `json:"host"`
+	Port     string `json:"port"`
+	User     string `json:"user"`
+	Password string `json:"password"`
+	Database string `json:"database"`
 }
 
-// GetConfig returns empty config
-func GetConfig() Config {
+// GetEmptyConfig returns empty config
+func GetEmptyConfig() Config {
 	return Config{}
+}
+
+// GetDefaultConfig returns defaul config
+func GetDefaultConfig() Config {
+	config := Config{}
+	config.User = "postgres"
+	config.Database = "test_app"
+	config.Host = " 127.0.0.1"
+	config.Password = "12345678"
+	config.Port = "5432"
+	return config
+}
+
+// GetConfigurationFromProperties gets database configuration properties from  /config dir
+func GetConfigurationFromProperties() Config {
+	file, err := os.Open("./config/config.database_properties.json")
+	if err != nil {
+		log.Println(err.Error())
+		os.Exit(1)
+	}
+	defer file.Close()
+	decoder := json.NewDecoder(file)
+	var config Config
+	if err = decoder.Decode(&config); err != nil {
+		log.Println(err.Error())
+		os.Exit(1)
+	}
+	return config
 }
 
 // GetConnection returns a connection
