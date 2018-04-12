@@ -1,4 +1,3 @@
-
 [
     {
         "device_id": 1,
@@ -39,5 +38,45 @@
 		"metric3": 3,
 		"metric4": 4,
 		"metric5": 5
-    }
+	}, 
+	{
+        "device_id": 6,
+		"metric1": 1,
+		"metric2": 2,
+		"metric3": 3,
+		"metric4": 4,
+		"metric5": 5
+	}, 
+	{
+        "device_id": 7,
+		"metric1": 1,
+		"metric2": 2,
+		"metric3": 3,
+		"metric4": 4,
+		"metric5": 5
+	}, 
+	{
+        "device_id": 8,
+		"metric1": 1,
+		"metric2": 2,
+		"metric3": 3,
+		"metric4": 4,
+		"metric5": 5
+	}, 
+	{
+        "device_id": 9,
+		"metric1": 1,
+		"metric2": 2,
+		"metric3": 3,
+		"metric4": 4,
+		"metric5": 5
+	}, 
+	{
+        "device_id": 10,
+		"metric1": 1,
+		"metric2": 2,
+		"metric3": 3,
+		"metric4": 4,
+		"metric5": 5
+    } 
 ]
