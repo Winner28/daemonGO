@@ -141,8 +141,8 @@ func (handler *Handler) MonitorMetrics(from int, to int) {
 // Alert message to device_alerts table, message contains information about:
 // concrete user, device and the device_metrics that out of range
 // [] badMetrics represents a numbers of bad metrics.
-// Also we cache deviceID with specified message to redis, if we already got message for key=deviceID =>
-// overwrite it
+// Also we cache deviceID with specified message to redis if we already got message for key=deviceID => overwrite it
+// And finally we send message to userEmail about metrics problem
 func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetrics, badMetrics []int) {
 	row := handler.Db.QueryRow(selectDevice, deviceMetrics.DeviceID)
 	var device model.Device
@@ -177,6 +177,7 @@ func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetric
 	}
 	handler.Db.QueryRow(insertDeviceAlert, lastDeviceAlertID, device.ID, message).Scan(&lastDeviceAlertID)
 	*(&lastDeviceAlertID)++
+	sender.sendMessage(user.Email, "Problem with Metrics", message)
 }
 
 // Specified error message for device_metrics, that out of range
@@ -202,7 +203,7 @@ func createErrorMessage(user model.User, device model.Device, deviceMetrics mode
 			break
 		}
 	}
-	message += fmt.Sprint("\n\nReported Time: ", time.Now().Format("Mon Jan _2 15:04:05 2006"), "\n\n")
+	message += fmt.Sprint("\n\nReported Time: ", time.Now().Format("Mon Jan _2 15:04:05 2006"), "\n")
 
 	return message
 }

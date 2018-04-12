@@ -1,0 +1,6 @@
+{ 
+    "user":     "addreality@reality.com", 
+    "password": "#encrypted", 
+    "smtpServer": "smtp.mail.ru"
+}
+
