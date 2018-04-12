@@ -32,7 +32,7 @@ func GetEmptyConfig() Config {
 	return Config{}
 }
 
-// GetDefaultConfig returns defaul config
+// GetDefaultConfig returns default config
 func GetDefaultConfig() Config {
 	config := Config{}
 	config.User = "super_cool"
@@ -43,7 +43,8 @@ func GetDefaultConfig() Config {
 	return config
 }
 
-// GetConfigurationFromProperties gets database configuration properties from  /config dir
+// GetConfigFromProperties gets database configuration properties from config file
+// that lies under "./config/config.database_properties.json"
 func GetConfigFromProperties() Config {
 	file, err := os.Open("./config/config.database_properties.json")
 	if err != nil {
@@ -104,6 +105,7 @@ func (handler *Handler) CloseConnection() error {
 	return nil
 }
 
+// Uses to validate incoming configuration
 func validateConfig(config Config) bool {
 	return !(config.Database == "" || config.Host == "" ||
 		config.Password == "" || config.Port == "" ||

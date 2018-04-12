@@ -7,10 +7,10 @@ import (
 	"github.com/sevlyar/go-daemon"
 )
 
-// StartDaemon starts Daemon
+// StartDaemon starts Daemon process
 func StartDaemon() {
 	fmt.Println("Daemon started")
-	fmt.Println("You can kill a daemon with help of pid file, that contains pid of process")
+	fmt.Println("You can kill a daemon with a help of a pid file, that contains pid of process")
 	fmt.Println("(Pid file is gonna be created after the app has been started)")
 	cntxt := &daemon.Context{
 		PidFileName: "pid",

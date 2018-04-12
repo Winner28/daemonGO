@@ -48,9 +48,9 @@ func getDeviceMetricsRangesFromProperties() []model.DeviceMetricsRange {
 // Designed to register device metrics in the database
 // Each device has an optimal value for a certain metric (lies under /config/config.metrics.json)
 // We simulate the sending of the metric from the device with a help of deviceMetrics map,
-// that for [key = deviceID] gonna return deviceMetricsRange, that contains a min value,
-// and a max value of metrics (values that lies under max is always bigger than the optimal metrics).
-// In this range[min:max] we gonna generate specific metric and sent it to db.
+// that for [key = deviceID] gonna return deviceMetricsRange, that contains a min,
+// and max value of metrics (values that lies under max is always bigger than the optimal metrics).
+// In this range[min:max] we gonna generate specific metric for specified Device and sent it to db.
 func registerIncomingMetricsFromDevices(from, to int) {
 	handler := getHandler()
 	connections = append(connections, handler)
@@ -68,7 +68,7 @@ func registerIncomingMetricsFromDevices(from, to int) {
 	}
 }
 
-// Rutine, that every 3 Seconds monitor metrics values of devices
+// Gorutine that every 3 Seconds monitor metrics values of devices
 func monitorIncomingMetricsOfDevices(from, to int) {
 	handler := getHandler()
 	connections = append(connections, handler)
@@ -84,12 +84,12 @@ func getDeviceMetricsForDevice(ID int) int {
 	return random(devMetr.Min, devMetr.Max)
 }
 
-// Help of sim :)
+// Help of simulation
 func random(min, max int) int {
 	return rand.Intn(max-min) + min
 }
 
-// Function that returns Handler.
+// Function that returns Handler
 func getHandler() *service.Handler {
 	handler, err := service.GetConnection(service.GetConfigFromProperties())
 	if err != nil {

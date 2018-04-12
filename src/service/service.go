@@ -169,6 +169,10 @@ func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetric
 
 	message := createErrorMessage(user, device, deviceMetrics, badMetrics)
 	log.Println(message)
+	key := "userID: " + strconv.Itoa(user.ID) + " deviceID: " + strconv.Itoa(device.ID)
+	if ok := cache.setKeyValue(key, message); !ok {
+		log.Println("Looks like we got problem with Redis!")
+	}
 	/* handler.Db.QueryRow(insertDeviceAlert, lastID, device.ID, message).Scan(&lastDeviceAlertID)
 	*(&lastDeviceAlertID)++ */
 }
@@ -212,7 +216,7 @@ func (handler *Handler) deviceMetricExists(ID int) bool {
 	return exists
 }
 
-// checking if metrics are out of specified range
+// Сhecking if metrics are out of specified range
 // (range specified in /config/config.metrics.json file)
 func checkMetrics(device model.DeviceMetrics) ([]int, bool) {
 	badMetrics := make([]int, 5)

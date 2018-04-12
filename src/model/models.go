@@ -5,21 +5,21 @@ import (
 	"time"
 )
 
-// User struct represents a `users` table in database
+// User struct represents a `users` table in the database
 type User struct {
 	ID    int
 	Name  string
 	Email string
 }
 
-// Device struct represents a `devices` table in database
+// Device struct represents a `devices` table in the database
 type Device struct {
 	ID     int
 	Name   string
 	UserID int
 }
 
-// DeviceMetrics struct represents a `device_metrics` table in database
+// DeviceMetrics struct represents a `device_metrics` table in the database
 type DeviceMetrics struct {
 	ID        int
 	DeviceID  int `json:"device_id"`
@@ -31,7 +31,7 @@ type DeviceMetrics struct {
 	LocalTime time.Time
 }
 
-// DeviceAlerts struct represents a `device_alerts` table in database
+// DeviceAlerts struct represents a `device_alerts` table in the database
 type DeviceAlerts struct {
 	id       int
 	deviceID int
