@@ -15,15 +15,15 @@ import (
 const (
 	updateDeviceMetrics = `UPDATE device_metrics SET 
 					   metric_1 = $1, metric_2 = $2,
-					   metric_3 = $3, metric_4 = $4, metric_5 = $5 
-					   WHERE device_id=$6`
+					   metric_3 = $3, metric_4 = $4, metric_5 = $5, local_time = $6 
+					   WHERE device_id=$7`
 	selectDeviceMetrics = `SELECT id, device_id, metric_1,  metric_2,  metric_3,  metric_4,  metric_5
 					   FROM device_metrics 
 					   WHERE id=$1;`
 
 	insertDeviceMetrics = `INSERT INTO device_metrics (id, device_id, metric_1, metric_2, 
-													  metric_3,  metric_4,  metric_5) 
-						   VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id;`
+													  metric_3,  metric_4,  metric_5, local_time) 
+						   VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING id;`
 
 	selectExists = `SELECT exists(SELECT device_id FROM device_metrics WHERE device_id=$1);`
 )
@@ -90,7 +90,7 @@ func (handler *Handler) UpdateMetrics(ID int, metrics map[int]int) {
 			lastID = ID
 			var id int
 			err := handler.Db.QueryRow(insertDeviceMetrics, lastID, ID, metrics[1], metrics[2],
-				metrics[3], metrics[4], metrics[5]).Scan(&id)
+				metrics[3], metrics[4], metrics[5], time.Now()).Scan(&id)
 			if err != nil {
 				panic(err)
 			}
@@ -99,7 +99,7 @@ func (handler *Handler) UpdateMetrics(ID int, metrics map[int]int) {
 		contains[ID] = true
 	}
 	res, err := handler.Db.Exec(updateDeviceMetrics, metrics[1], metrics[2],
-		metrics[3], metrics[4], metrics[5], ID)
+		metrics[3], metrics[4], metrics[5], time.Now(), ID)
 	if err != nil {
 		log.Panic(err)
 	}
@@ -131,7 +131,6 @@ func (handler *Handler) MonitorMetrics(from int, to int) {
 		case sql.ErrNoRows:
 			log.Println("We dont have metrics for such device ID")
 		case nil:
-			fmt.Println(metr)
 		default:
 			panic(err)
 		}
