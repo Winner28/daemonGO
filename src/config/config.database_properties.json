@@ -1,9 +1,8 @@
 { 
-    "user":     "postgres", 
+    "user":     "superUser", 
     "host":     "127.0.0.1",
     "port":     "5432",
-    "database": "test_app", 
-    "password": "12345678"
-   
+    "database": "addreality", 
+    "password": "addreality"
 }
 
