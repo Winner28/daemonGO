@@ -140,7 +140,9 @@ func (handler *Handler) MonitorMetrics(from int, to int) {
 
 // Alert message to device_alerts table, message contains information about:
 // concrete user, device and the device_metrics that out of range
-// [] badMetrics represents a numbers of bad metrics
+// [] badMetrics represents a numbers of bad metrics.
+// Also we cache deviceID with specified message to redis, if we already got message for key=deviceID =>
+// overwrite it
 func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetrics, badMetrics []int) {
 	row := handler.Db.QueryRow(selectDevice, deviceMetrics.DeviceID)
 	var device model.Device
@@ -169,12 +171,12 @@ func (handler *Handler) alertDeviceMetricsError(deviceMetrics model.DeviceMetric
 
 	message := createErrorMessage(user, device, deviceMetrics, badMetrics)
 	log.Println(message)
-	key := "userID: " + strconv.Itoa(user.ID) + " deviceID: " + strconv.Itoa(device.ID)
+	key := "deviceID:" + strconv.Itoa(device.ID)
 	if ok := cache.setKeyValue(key, message); !ok {
 		log.Println("Looks like we got problem with Redis!")
 	}
-	/* handler.Db.QueryRow(insertDeviceAlert, lastID, device.ID, message).Scan(&lastDeviceAlertID)
-	*(&lastDeviceAlertID)++ */
+	handler.Db.QueryRow(insertDeviceAlert, lastDeviceAlertID, device.ID, message).Scan(&lastDeviceAlertID)
+	*(&lastDeviceAlertID)++
 }
 
 // Specified error message for device_metrics, that out of range
@@ -200,7 +202,7 @@ func createErrorMessage(user model.User, device model.Device, deviceMetrics mode
 			break
 		}
 	}
-	message += fmt.Sprint("\n\nReported Time:", time.Now().Format("Mon Jan _2 15:04:05 2006"), "\n\n")
+	message += fmt.Sprint("\n\nReported Time: ", time.Now().Format("Mon Jan _2 15:04:05 2006"), "\n\n")
 
 	return message
 }

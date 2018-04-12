@@ -1,0 +1,3577 @@
+Daemon started
+You can kill a daemon with a help of a pid file, that contains pid of process
+(Pid file is gonna be created after the app has been started)
+2018/04/12 18:03:12 Connection created
+2018/04/12 18:03:12 Connection created
+2018/04/12 18:03:12 Registering metrics from devices...
+2018/04/12 18:03:12 Updating metrics: 1 map[1:34 2:108 3:14 4:127 5:30]
+2018/04/12 18:03:15 Monitoring metrics!
+2018/04/12 18:03:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:15 Selecting Device with ID: 1
+2018/04/12 18:03:15 Selecting User with Name: Vlad
+2018/04/12 18:03:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 34
+*Metric_2*  Prefered: 20, ACTUAL: 108
+*Metric_4*  Prefered: 67, ACTUAL: 108
+
+Reported Time: Thu Apr 12 18:03:15 2018
+
+
+{1 1 34 108 14 127 30 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:17 Registering metrics from devices...
+2018/04/12 18:03:17 Updating metrics: 1 map[1:4 2:128 3:146 4:143 5:135]
+2018/04/12 18:03:18 Monitoring metrics!
+2018/04/12 18:03:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:18 Selecting Device with ID: 1
+2018/04/12 18:03:18 Selecting User with Name: Vlad
+2018/04/12 18:03:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 128
+*Metric_3*  Prefered: 30, ACTUAL: 128
+*Metric_4*  Prefered: 67, ACTUAL: 128
+*Metric_5*  Prefered: 89, ACTUAL: 128
+
+Reported Time: Thu Apr 12 18:03:18 2018
+
+
+{1 1 4 128 146 143 135 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:21 Monitoring metrics!
+2018/04/12 18:03:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:21 Selecting Device with ID: 1
+2018/04/12 18:03:21 Selecting User with Name: Vlad
+2018/04/12 18:03:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 128
+*Metric_3*  Prefered: 30, ACTUAL: 128
+*Metric_4*  Prefered: 67, ACTUAL: 128
+*Metric_5*  Prefered: 89, ACTUAL: 128
+
+Reported Time: Thu Apr 12 18:03:21 2018
+
+
+{1 1 4 128 146 143 135 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:22 Registering metrics from devices...
+2018/04/12 18:03:22 Updating metrics: 1 map[4:115 5:87 1:20 2:63 3:71]
+2018/04/12 18:03:24 Monitoring metrics!
+2018/04/12 18:03:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:24 Selecting Device with ID: 1
+2018/04/12 18:03:24 Selecting User with Name: Vlad
+2018/04/12 18:03:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 20
+*Metric_2*  Prefered: 20, ACTUAL: 63
+*Metric_3*  Prefered: 30, ACTUAL: 63
+*Metric_4*  Prefered: 67, ACTUAL: 63
+
+Reported Time: Thu Apr 12 18:03:24 2018
+
+
+{1 1 20 63 71 115 87 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:27 Registering metrics from devices...
+2018/04/12 18:03:27 Updating metrics: 1 map[5:133 1:66 2:131 3:18 4:42]
+2018/04/12 18:03:27 Monitoring metrics!
+2018/04/12 18:03:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:27 Selecting Device with ID: 1
+2018/04/12 18:03:27 Selecting User with Name: Vlad
+2018/04/12 18:03:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 66
+*Metric_2*  Prefered: 20, ACTUAL: 131
+*Metric_5*  Prefered: 89, ACTUAL: 131
+
+Reported Time: Thu Apr 12 18:03:27 2018
+
+
+{1 1 66 131 18 42 133 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:30 Monitoring metrics!
+2018/04/12 18:03:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:30 Selecting Device with ID: 1
+2018/04/12 18:03:30 Selecting User with Name: Vlad
+2018/04/12 18:03:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 66
+*Metric_2*  Prefered: 20, ACTUAL: 131
+*Metric_5*  Prefered: 89, ACTUAL: 131
+
+Reported Time: Thu Apr 12 18:03:30 2018
+
+
+{1 1 66 131 18 42 133 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:32 Registering metrics from devices...
+2018/04/12 18:03:32 Updating metrics: 1 map[1:105 2:77 3:88 4:39 5:98]
+2018/04/12 18:03:33 Monitoring metrics!
+2018/04/12 18:03:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:33 Selecting Device with ID: 1
+2018/04/12 18:03:33 Selecting User with Name: Vlad
+2018/04/12 18:03:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 105
+*Metric_2*  Prefered: 20, ACTUAL: 77
+*Metric_3*  Prefered: 30, ACTUAL: 77
+*Metric_5*  Prefered: 89, ACTUAL: 77
+
+Reported Time: Thu Apr 12 18:03:33 2018
+
+
+{1 1 105 77 88 39 98 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:36 Monitoring metrics!
+2018/04/12 18:03:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:36 Selecting Device with ID: 1
+2018/04/12 18:03:36 Selecting User with Name: Vlad
+2018/04/12 18:03:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 105
+*Metric_2*  Prefered: 20, ACTUAL: 77
+*Metric_3*  Prefered: 30, ACTUAL: 77
+*Metric_5*  Prefered: 89, ACTUAL: 77
+
+Reported Time: Thu Apr 12 18:03:36 2018
+
+
+{1 1 105 77 88 39 98 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:37 Registering metrics from devices...
+2018/04/12 18:03:37 Updating metrics: 1 map[1:92 2:103 3:140 4:104 5:129]
+2018/04/12 18:03:39 Monitoring metrics!
+2018/04/12 18:03:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:39 Selecting Device with ID: 1
+2018/04/12 18:03:39 Selecting User with Name: Vlad
+2018/04/12 18:03:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 92
+*Metric_2*  Prefered: 20, ACTUAL: 103
+*Metric_3*  Prefered: 30, ACTUAL: 103
+*Metric_4*  Prefered: 67, ACTUAL: 103
+*Metric_5*  Prefered: 89, ACTUAL: 103
+
+Reported Time: Thu Apr 12 18:03:39 2018
+
+
+{1 1 92 103 140 104 129 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:42 Registering metrics from devices...
+2018/04/12 18:03:42 Updating metrics: 1 map[1:76 2:31 3:116 4:58 5:38]
+2018/04/12 18:03:42 Monitoring metrics!
+2018/04/12 18:03:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:42 Selecting Device with ID: 1
+2018/04/12 18:03:42 Selecting User with Name: Vlad
+2018/04/12 18:03:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 76
+*Metric_2*  Prefered: 20, ACTUAL: 31
+*Metric_3*  Prefered: 30, ACTUAL: 31
+
+Reported Time: Thu Apr 12 18:03:42 2018
+
+
+{1 1 76 31 116 58 38 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:45 Monitoring metrics!
+2018/04/12 18:03:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:45 Selecting Device with ID: 1
+2018/04/12 18:03:45 Selecting User with Name: Vlad
+2018/04/12 18:03:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 76
+*Metric_2*  Prefered: 20, ACTUAL: 31
+*Metric_3*  Prefered: 30, ACTUAL: 31
+
+Reported Time: Thu Apr 12 18:03:45 2018
+
+
+{1 1 76 31 116 58 38 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:47 Registering metrics from devices...
+2018/04/12 18:03:47 Updating metrics: 1 map[1:93 2:51 3:116 4:88 5:65]
+2018/04/12 18:03:48 Monitoring metrics!
+2018/04/12 18:03:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:48 Selecting Device with ID: 1
+2018/04/12 18:03:48 Selecting User with Name: Vlad
+2018/04/12 18:03:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 93
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:03:48 2018
+
+
+{1 1 93 51 116 88 65 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:51 Monitoring metrics!
+2018/04/12 18:03:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:51 Selecting Device with ID: 1
+2018/04/12 18:03:51 Selecting User with Name: Vlad
+2018/04/12 18:03:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 93
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:03:51 2018
+
+
+{1 1 93 51 116 88 65 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:52 Registering metrics from devices...
+2018/04/12 18:03:52 Updating metrics: 1 map[3:64 4:94 5:25 1:38 2:69]
+2018/04/12 18:03:54 Monitoring metrics!
+2018/04/12 18:03:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:54 Selecting Device with ID: 1
+2018/04/12 18:03:54 Selecting User with Name: Vlad
+2018/04/12 18:03:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 38
+*Metric_2*  Prefered: 20, ACTUAL: 69
+*Metric_3*  Prefered: 30, ACTUAL: 69
+*Metric_4*  Prefered: 67, ACTUAL: 69
+
+Reported Time: Thu Apr 12 18:03:54 2018
+
+
+{1 1 38 69 64 94 25 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:03:57 Registering metrics from devices...
+2018/04/12 18:03:57 Updating metrics: 1 map[3:57 4:40 5:126 1:139 2:67]
+2018/04/12 18:03:57 Monitoring metrics!
+2018/04/12 18:03:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:03:57 Selecting Device with ID: 1
+2018/04/12 18:03:57 Selecting User with Name: Vlad
+2018/04/12 18:03:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 67
+*Metric_3*  Prefered: 30, ACTUAL: 67
+*Metric_5*  Prefered: 89, ACTUAL: 67
+
+Reported Time: Thu Apr 12 18:03:57 2018
+
+
+{1 1 139 67 57 40 126 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:00 Monitoring metrics!
+2018/04/12 18:04:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:00 Selecting Device with ID: 1
+2018/04/12 18:04:00 Selecting User with Name: Vlad
+2018/04/12 18:04:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 67
+*Metric_3*  Prefered: 30, ACTUAL: 67
+*Metric_5*  Prefered: 89, ACTUAL: 67
+
+Reported Time: Thu Apr 12 18:04:00 2018
+
+
+{1 1 139 67 57 40 126 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:02 Registering metrics from devices...
+2018/04/12 18:04:02 Updating metrics: 1 map[2:94 3:55 4:78 5:4 1:110]
+2018/04/12 18:04:03 Monitoring metrics!
+2018/04/12 18:04:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:03 Selecting Device with ID: 1
+2018/04/12 18:04:03 Selecting User with Name: Vlad
+2018/04/12 18:04:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 110
+*Metric_2*  Prefered: 20, ACTUAL: 94
+*Metric_3*  Prefered: 30, ACTUAL: 94
+*Metric_4*  Prefered: 67, ACTUAL: 94
+
+Reported Time: Thu Apr 12 18:04:03 2018
+
+
+{1 1 110 94 55 78 4 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:06 Monitoring metrics!
+2018/04/12 18:04:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:06 Selecting Device with ID: 1
+2018/04/12 18:04:06 Selecting User with Name: Vlad
+2018/04/12 18:04:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 110
+*Metric_2*  Prefered: 20, ACTUAL: 94
+*Metric_3*  Prefered: 30, ACTUAL: 94
+*Metric_4*  Prefered: 67, ACTUAL: 94
+
+Reported Time: Thu Apr 12 18:04:06 2018
+
+
+{1 1 110 94 55 78 4 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:07 Registering metrics from devices...
+2018/04/12 18:04:07 Updating metrics: 1 map[4:74 5:67 1:85 2:116 3:126]
+2018/04/12 18:04:09 Monitoring metrics!
+2018/04/12 18:04:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:09 Selecting Device with ID: 1
+2018/04/12 18:04:09 Selecting User with Name: Vlad
+2018/04/12 18:04:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 85
+*Metric_2*  Prefered: 20, ACTUAL: 116
+*Metric_3*  Prefered: 30, ACTUAL: 116
+*Metric_4*  Prefered: 67, ACTUAL: 116
+
+Reported Time: Thu Apr 12 18:04:09 2018
+
+
+{1 1 85 116 126 74 67 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:12 Registering metrics from devices...
+2018/04/12 18:04:12 Updating metrics: 1 map[1:83 2:64 3:75 4:121 5:48]
+2018/04/12 18:04:12 Monitoring metrics!
+2018/04/12 18:04:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:12 Selecting Device with ID: 1
+2018/04/12 18:04:12 Selecting User with Name: Vlad
+2018/04/12 18:04:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 83
+*Metric_2*  Prefered: 20, ACTUAL: 64
+*Metric_3*  Prefered: 30, ACTUAL: 64
+*Metric_4*  Prefered: 67, ACTUAL: 64
+
+Reported Time: Thu Apr 12 18:04:12 2018
+
+
+{1 1 83 64 75 121 48 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:15 Monitoring metrics!
+2018/04/12 18:04:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:15 Selecting Device with ID: 1
+2018/04/12 18:04:15 Selecting User with Name: Vlad
+2018/04/12 18:04:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 83
+*Metric_2*  Prefered: 20, ACTUAL: 64
+*Metric_3*  Prefered: 30, ACTUAL: 64
+*Metric_4*  Prefered: 67, ACTUAL: 64
+
+Reported Time: Thu Apr 12 18:04:15 2018
+
+
+{1 1 83 64 75 121 48 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:17 Registering metrics from devices...
+2018/04/12 18:04:17 Updating metrics: 1 map[5:12 1:36 2:135 3:43 4:42]
+2018/04/12 18:04:18 Monitoring metrics!
+2018/04/12 18:04:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:18 Selecting Device with ID: 1
+2018/04/12 18:04:18 Selecting User with Name: Vlad
+2018/04/12 18:04:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 36
+*Metric_2*  Prefered: 20, ACTUAL: 135
+*Metric_3*  Prefered: 30, ACTUAL: 135
+
+Reported Time: Thu Apr 12 18:04:18 2018
+
+
+{1 1 36 135 43 42 12 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:21 Monitoring metrics!
+2018/04/12 18:04:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:21 Selecting Device with ID: 1
+2018/04/12 18:04:21 Selecting User with Name: Vlad
+2018/04/12 18:04:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 36
+*Metric_2*  Prefered: 20, ACTUAL: 135
+*Metric_3*  Prefered: 30, ACTUAL: 135
+
+Reported Time: Thu Apr 12 18:04:21 2018
+
+
+{1 1 36 135 43 42 12 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:22 Registering metrics from devices...
+2018/04/12 18:04:22 Updating metrics: 1 map[1:19 2:6 3:131 4:105 5:133]
+2018/04/12 18:04:24 Monitoring metrics!
+2018/04/12 18:04:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:24 Selecting Device with ID: 1
+2018/04/12 18:04:24 Selecting User with Name: Vlad
+2018/04/12 18:04:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 19
+*Metric_3*  Prefered: 30, ACTUAL: 6
+*Metric_4*  Prefered: 67, ACTUAL: 6
+*Metric_5*  Prefered: 89, ACTUAL: 6
+
+Reported Time: Thu Apr 12 18:04:24 2018
+
+
+{1 1 19 6 131 105 133 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:27 Registering metrics from devices...
+2018/04/12 18:04:27 Updating metrics: 1 map[1:107 2:128 3:67 4:6 5:13]
+2018/04/12 18:04:27 Monitoring metrics!
+2018/04/12 18:04:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:27 Selecting Device with ID: 1
+2018/04/12 18:04:27 Selecting User with Name: Vlad
+2018/04/12 18:04:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 107
+*Metric_2*  Prefered: 20, ACTUAL: 128
+*Metric_3*  Prefered: 30, ACTUAL: 128
+
+Reported Time: Thu Apr 12 18:04:27 2018
+
+
+{1 1 107 128 67 6 13 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:30 Monitoring metrics!
+2018/04/12 18:04:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:30 Selecting Device with ID: 1
+2018/04/12 18:04:30 Selecting User with Name: Vlad
+2018/04/12 18:04:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 107
+*Metric_2*  Prefered: 20, ACTUAL: 128
+*Metric_3*  Prefered: 30, ACTUAL: 128
+
+Reported Time: Thu Apr 12 18:04:30 2018
+
+
+{1 1 107 128 67 6 13 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:32 Registering metrics from devices...
+2018/04/12 18:04:32 Updating metrics: 1 map[2:26 3:115 4:90 5:94 1:87]
+2018/04/12 18:04:33 Monitoring metrics!
+2018/04/12 18:04:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:33 Selecting Device with ID: 1
+2018/04/12 18:04:33 Selecting User with Name: Vlad
+2018/04/12 18:04:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 87
+*Metric_2*  Prefered: 20, ACTUAL: 26
+*Metric_3*  Prefered: 30, ACTUAL: 26
+*Metric_4*  Prefered: 67, ACTUAL: 26
+*Metric_5*  Prefered: 89, ACTUAL: 26
+
+Reported Time: Thu Apr 12 18:04:33 2018
+
+
+{1 1 87 26 115 90 94 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:36 Monitoring metrics!
+2018/04/12 18:04:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:36 Selecting Device with ID: 1
+2018/04/12 18:04:36 Selecting User with Name: Vlad
+2018/04/12 18:04:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 87
+*Metric_2*  Prefered: 20, ACTUAL: 26
+*Metric_3*  Prefered: 30, ACTUAL: 26
+*Metric_4*  Prefered: 67, ACTUAL: 26
+*Metric_5*  Prefered: 89, ACTUAL: 26
+
+Reported Time: Thu Apr 12 18:04:36 2018
+
+
+{1 1 87 26 115 90 94 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:37 Registering metrics from devices...
+2018/04/12 18:04:37 Updating metrics: 1 map[3:15 4:68 5:2 1:140 2:78]
+2018/04/12 18:04:39 Monitoring metrics!
+2018/04/12 18:04:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:39 Selecting Device with ID: 1
+2018/04/12 18:04:39 Selecting User with Name: Vlad
+2018/04/12 18:04:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 140
+*Metric_2*  Prefered: 20, ACTUAL: 78
+*Metric_4*  Prefered: 67, ACTUAL: 78
+
+Reported Time: Thu Apr 12 18:04:39 2018
+
+
+{1 1 140 78 15 68 2 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:42 Registering metrics from devices...
+2018/04/12 18:04:42 Updating metrics: 1 map[2:87 3:85 4:34 5:2 1:39]
+2018/04/12 18:04:42 Monitoring metrics!
+2018/04/12 18:04:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:42 Selecting Device with ID: 1
+2018/04/12 18:04:42 Selecting User with Name: Vlad
+2018/04/12 18:04:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 39
+*Metric_2*  Prefered: 20, ACTUAL: 87
+*Metric_3*  Prefered: 30, ACTUAL: 87
+
+Reported Time: Thu Apr 12 18:04:42 2018
+
+
+{1 1 39 87 85 34 2 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:45 Monitoring metrics!
+2018/04/12 18:04:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:45 Selecting Device with ID: 1
+2018/04/12 18:04:45 Selecting User with Name: Vlad
+2018/04/12 18:04:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 39
+*Metric_2*  Prefered: 20, ACTUAL: 87
+*Metric_3*  Prefered: 30, ACTUAL: 87
+
+Reported Time: Thu Apr 12 18:04:45 2018
+
+
+{1 1 39 87 85 34 2 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:47 Registering metrics from devices...
+2018/04/12 18:04:47 Updating metrics: 1 map[2:7 3:88 4:118 5:35 1:79]
+2018/04/12 18:04:48 Monitoring metrics!
+2018/04/12 18:04:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:48 Selecting Device with ID: 1
+2018/04/12 18:04:48 Selecting User with Name: Vlad
+2018/04/12 18:04:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 79
+*Metric_3*  Prefered: 30, ACTUAL: 7
+*Metric_4*  Prefered: 67, ACTUAL: 7
+
+Reported Time: Thu Apr 12 18:04:48 2018
+
+
+{1 1 79 7 88 118 35 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:51 Monitoring metrics!
+2018/04/12 18:04:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:51 Selecting Device with ID: 1
+2018/04/12 18:04:51 Selecting User with Name: Vlad
+2018/04/12 18:04:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 79
+*Metric_3*  Prefered: 30, ACTUAL: 7
+*Metric_4*  Prefered: 67, ACTUAL: 7
+
+Reported Time: Thu Apr 12 18:04:51 2018
+
+
+{1 1 79 7 88 118 35 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:52 Registering metrics from devices...
+2018/04/12 18:04:52 Updating metrics: 1 map[3:86 4:108 5:108 1:113 2:122]
+2018/04/12 18:04:54 Monitoring metrics!
+2018/04/12 18:04:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:54 Selecting Device with ID: 1
+2018/04/12 18:04:54 Selecting User with Name: Vlad
+2018/04/12 18:04:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 113
+*Metric_2*  Prefered: 20, ACTUAL: 122
+*Metric_3*  Prefered: 30, ACTUAL: 122
+*Metric_4*  Prefered: 67, ACTUAL: 122
+*Metric_5*  Prefered: 89, ACTUAL: 122
+
+Reported Time: Thu Apr 12 18:04:54 2018
+
+
+{1 1 113 122 86 108 108 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:04:57 Registering metrics from devices...
+2018/04/12 18:04:57 Updating metrics: 1 map[3:29 4:113 5:127 1:148 2:66]
+2018/04/12 18:04:57 Monitoring metrics!
+2018/04/12 18:04:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:04:57 Selecting Device with ID: 1
+2018/04/12 18:04:57 Selecting User with Name: Vlad
+2018/04/12 18:04:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 148
+*Metric_2*  Prefered: 20, ACTUAL: 66
+*Metric_4*  Prefered: 67, ACTUAL: 66
+*Metric_5*  Prefered: 89, ACTUAL: 66
+
+Reported Time: Thu Apr 12 18:04:57 2018
+
+
+{1 1 148 66 29 113 127 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:00 Monitoring metrics!
+2018/04/12 18:05:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:00 Selecting Device with ID: 1
+2018/04/12 18:05:00 Selecting User with Name: Vlad
+2018/04/12 18:05:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 148
+*Metric_2*  Prefered: 20, ACTUAL: 66
+*Metric_4*  Prefered: 67, ACTUAL: 66
+*Metric_5*  Prefered: 89, ACTUAL: 66
+
+Reported Time: Thu Apr 12 18:05:00 2018
+
+
+{1 1 148 66 29 113 127 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:02 Registering metrics from devices...
+2018/04/12 18:05:02 Updating metrics: 1 map[3:83 4:23 5:110 1:19 2:85]
+2018/04/12 18:05:03 Monitoring metrics!
+2018/04/12 18:05:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:03 Selecting Device with ID: 1
+2018/04/12 18:05:03 Selecting User with Name: Vlad
+2018/04/12 18:05:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 19
+*Metric_2*  Prefered: 20, ACTUAL: 85
+*Metric_3*  Prefered: 30, ACTUAL: 85
+*Metric_5*  Prefered: 89, ACTUAL: 85
+
+Reported Time: Thu Apr 12 18:05:03 2018
+
+
+{1 1 19 85 83 23 110 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:06 Monitoring metrics!
+2018/04/12 18:05:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:06 Selecting Device with ID: 1
+2018/04/12 18:05:06 Selecting User with Name: Vlad
+2018/04/12 18:05:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 19
+*Metric_2*  Prefered: 20, ACTUAL: 85
+*Metric_3*  Prefered: 30, ACTUAL: 85
+*Metric_5*  Prefered: 89, ACTUAL: 85
+
+Reported Time: Thu Apr 12 18:05:06 2018
+
+
+{1 1 19 85 83 23 110 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:07 Registering metrics from devices...
+2018/04/12 18:05:07 Updating metrics: 1 map[1:102 2:136 3:11 4:114 5:14]
+2018/04/12 18:05:09 Monitoring metrics!
+2018/04/12 18:05:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:09 Selecting Device with ID: 1
+2018/04/12 18:05:09 Selecting User with Name: Vlad
+2018/04/12 18:05:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 102
+*Metric_2*  Prefered: 20, ACTUAL: 136
+*Metric_4*  Prefered: 67, ACTUAL: 136
+
+Reported Time: Thu Apr 12 18:05:09 2018
+
+
+{1 1 102 136 11 114 14 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:12 Registering metrics from devices...
+2018/04/12 18:05:12 Updating metrics: 1 map[1:44 2:124 3:32 4:15 5:105]
+2018/04/12 18:05:12 Monitoring metrics!
+2018/04/12 18:05:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:12 Selecting Device with ID: 1
+2018/04/12 18:05:12 Selecting User with Name: Vlad
+2018/04/12 18:05:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 44
+*Metric_2*  Prefered: 20, ACTUAL: 124
+*Metric_3*  Prefered: 30, ACTUAL: 124
+*Metric_5*  Prefered: 89, ACTUAL: 124
+
+Reported Time: Thu Apr 12 18:05:12 2018
+
+
+{1 1 44 124 32 15 105 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:15 Monitoring metrics!
+2018/04/12 18:05:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:15 Selecting Device with ID: 1
+2018/04/12 18:05:15 Selecting User with Name: Vlad
+2018/04/12 18:05:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 44
+*Metric_2*  Prefered: 20, ACTUAL: 124
+*Metric_3*  Prefered: 30, ACTUAL: 124
+*Metric_5*  Prefered: 89, ACTUAL: 124
+
+Reported Time: Thu Apr 12 18:05:15 2018
+
+
+{1 1 44 124 32 15 105 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:17 Registering metrics from devices...
+2018/04/12 18:05:17 Updating metrics: 1 map[1:28 2:91 3:76 4:143 5:9]
+2018/04/12 18:05:18 Monitoring metrics!
+2018/04/12 18:05:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:18 Selecting Device with ID: 1
+2018/04/12 18:05:18 Selecting User with Name: Vlad
+2018/04/12 18:05:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 28
+*Metric_2*  Prefered: 20, ACTUAL: 91
+*Metric_3*  Prefered: 30, ACTUAL: 91
+*Metric_4*  Prefered: 67, ACTUAL: 91
+
+Reported Time: Thu Apr 12 18:05:18 2018
+
+
+{1 1 28 91 76 143 9 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:21 Monitoring metrics!
+2018/04/12 18:05:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:21 Selecting Device with ID: 1
+2018/04/12 18:05:21 Selecting User with Name: Vlad
+2018/04/12 18:05:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 28
+*Metric_2*  Prefered: 20, ACTUAL: 91
+*Metric_3*  Prefered: 30, ACTUAL: 91
+*Metric_4*  Prefered: 67, ACTUAL: 91
+
+Reported Time: Thu Apr 12 18:05:21 2018
+
+
+{1 1 28 91 76 143 9 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:22 Registering metrics from devices...
+2018/04/12 18:05:22 Updating metrics: 1 map[1:93 2:4 3:28 4:112 5:17]
+2018/04/12 18:05:24 Monitoring metrics!
+2018/04/12 18:05:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:24 Selecting Device with ID: 1
+2018/04/12 18:05:24 Selecting User with Name: Vlad
+2018/04/12 18:05:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 93
+*Metric_4*  Prefered: 67, ACTUAL: 4
+
+Reported Time: Thu Apr 12 18:05:24 2018
+
+
+{1 1 93 4 28 112 17 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:27 Registering metrics from devices...
+2018/04/12 18:05:27 Updating metrics: 1 map[1:107 2:122 3:109 4:31 5:75]
+2018/04/12 18:05:27 Monitoring metrics!
+2018/04/12 18:05:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:27 Selecting Device with ID: 1
+2018/04/12 18:05:27 Selecting User with Name: Vlad
+2018/04/12 18:05:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 107
+*Metric_2*  Prefered: 20, ACTUAL: 122
+*Metric_3*  Prefered: 30, ACTUAL: 122
+
+Reported Time: Thu Apr 12 18:05:27 2018
+
+
+{1 1 107 122 109 31 75 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:30 Monitoring metrics!
+2018/04/12 18:05:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:30 Selecting Device with ID: 1
+2018/04/12 18:05:30 Selecting User with Name: Vlad
+2018/04/12 18:05:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 107
+*Metric_2*  Prefered: 20, ACTUAL: 122
+*Metric_3*  Prefered: 30, ACTUAL: 122
+
+Reported Time: Thu Apr 12 18:05:30 2018
+
+
+{1 1 107 122 109 31 75 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:32 Registering metrics from devices...
+2018/04/12 18:05:32 Updating metrics: 1 map[3:91 4:58 5:78 1:58 2:53]
+2018/04/12 18:05:33 Monitoring metrics!
+2018/04/12 18:05:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:33 Selecting Device with ID: 1
+2018/04/12 18:05:33 Selecting User with Name: Vlad
+2018/04/12 18:05:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 58
+*Metric_2*  Prefered: 20, ACTUAL: 53
+*Metric_3*  Prefered: 30, ACTUAL: 53
+
+Reported Time: Thu Apr 12 18:05:33 2018
+
+
+{1 1 58 53 91 58 78 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:36 Monitoring metrics!
+2018/04/12 18:05:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:36 Selecting Device with ID: 1
+2018/04/12 18:05:36 Selecting User with Name: Vlad
+2018/04/12 18:05:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 58
+*Metric_2*  Prefered: 20, ACTUAL: 53
+*Metric_3*  Prefered: 30, ACTUAL: 53
+
+Reported Time: Thu Apr 12 18:05:36 2018
+
+
+{1 1 58 53 91 58 78 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:37 Registering metrics from devices...
+2018/04/12 18:05:37 Updating metrics: 1 map[1:61 2:58 3:96 4:34 5:17]
+2018/04/12 18:05:39 Monitoring metrics!
+2018/04/12 18:05:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:39 Selecting Device with ID: 1
+2018/04/12 18:05:39 Selecting User with Name: Vlad
+2018/04/12 18:05:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 61
+*Metric_2*  Prefered: 20, ACTUAL: 58
+*Metric_3*  Prefered: 30, ACTUAL: 58
+
+Reported Time: Thu Apr 12 18:05:39 2018
+
+
+{1 1 61 58 96 34 17 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:42 Registering metrics from devices...
+2018/04/12 18:05:42 Updating metrics: 1 map[3:56 4:111 5:37 1:29 2:45]
+2018/04/12 18:05:42 Monitoring metrics!
+2018/04/12 18:05:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:42 Selecting Device with ID: 1
+2018/04/12 18:05:42 Selecting User with Name: Vlad
+2018/04/12 18:05:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 29
+*Metric_2*  Prefered: 20, ACTUAL: 45
+*Metric_3*  Prefered: 30, ACTUAL: 45
+*Metric_4*  Prefered: 67, ACTUAL: 45
+
+Reported Time: Thu Apr 12 18:05:42 2018
+
+
+{1 1 29 45 56 111 37 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:45 Monitoring metrics!
+2018/04/12 18:05:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:45 Selecting Device with ID: 1
+2018/04/12 18:05:45 Selecting User with Name: Vlad
+2018/04/12 18:05:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 29
+*Metric_2*  Prefered: 20, ACTUAL: 45
+*Metric_3*  Prefered: 30, ACTUAL: 45
+*Metric_4*  Prefered: 67, ACTUAL: 45
+
+Reported Time: Thu Apr 12 18:05:45 2018
+
+
+{1 1 29 45 56 111 37 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:47 Registering metrics from devices...
+2018/04/12 18:05:47 Updating metrics: 1 map[3:126 4:11 5:33 1:79 2:104]
+2018/04/12 18:05:48 Monitoring metrics!
+2018/04/12 18:05:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:48 Selecting Device with ID: 1
+2018/04/12 18:05:48 Selecting User with Name: Vlad
+2018/04/12 18:05:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 79
+*Metric_2*  Prefered: 20, ACTUAL: 104
+*Metric_3*  Prefered: 30, ACTUAL: 104
+
+Reported Time: Thu Apr 12 18:05:48 2018
+
+
+{1 1 79 104 126 11 33 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:51 Monitoring metrics!
+2018/04/12 18:05:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:51 Selecting Device with ID: 1
+2018/04/12 18:05:51 Selecting User with Name: Vlad
+2018/04/12 18:05:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 79
+*Metric_2*  Prefered: 20, ACTUAL: 104
+*Metric_3*  Prefered: 30, ACTUAL: 104
+
+Reported Time: Thu Apr 12 18:05:51 2018
+
+
+{1 1 79 104 126 11 33 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:52 Registering metrics from devices...
+2018/04/12 18:05:52 Updating metrics: 1 map[3:49 4:109 5:140 1:12 2:96]
+2018/04/12 18:05:54 Monitoring metrics!
+2018/04/12 18:05:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:54 Selecting Device with ID: 1
+2018/04/12 18:05:54 Selecting User with Name: Vlad
+2018/04/12 18:05:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 12
+*Metric_2*  Prefered: 20, ACTUAL: 96
+*Metric_3*  Prefered: 30, ACTUAL: 96
+*Metric_4*  Prefered: 67, ACTUAL: 96
+*Metric_5*  Prefered: 89, ACTUAL: 96
+
+Reported Time: Thu Apr 12 18:05:54 2018
+
+
+{1 1 12 96 49 109 140 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:05:57 Registering metrics from devices...
+2018/04/12 18:05:57 Updating metrics: 1 map[2:145 3:40 4:85 5:89 1:88]
+2018/04/12 18:05:57 Monitoring metrics!
+2018/04/12 18:05:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:05:57 Selecting Device with ID: 1
+2018/04/12 18:05:57 Selecting User with Name: Vlad
+2018/04/12 18:05:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 88
+*Metric_2*  Prefered: 20, ACTUAL: 145
+*Metric_3*  Prefered: 30, ACTUAL: 145
+*Metric_4*  Prefered: 67, ACTUAL: 145
+
+Reported Time: Thu Apr 12 18:05:57 2018
+
+
+{1 1 88 145 40 85 89 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:00 Monitoring metrics!
+2018/04/12 18:06:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:00 Selecting Device with ID: 1
+2018/04/12 18:06:00 Selecting User with Name: Vlad
+2018/04/12 18:06:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 88
+*Metric_2*  Prefered: 20, ACTUAL: 145
+*Metric_3*  Prefered: 30, ACTUAL: 145
+*Metric_4*  Prefered: 67, ACTUAL: 145
+
+Reported Time: Thu Apr 12 18:06:00 2018
+
+
+{1 1 88 145 40 85 89 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:02 Registering metrics from devices...
+2018/04/12 18:06:02 Updating metrics: 1 map[4:130 5:26 1:39 2:148 3:16]
+2018/04/12 18:06:03 Monitoring metrics!
+2018/04/12 18:06:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:03 Selecting Device with ID: 1
+2018/04/12 18:06:03 Selecting User with Name: Vlad
+2018/04/12 18:06:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 39
+*Metric_2*  Prefered: 20, ACTUAL: 148
+*Metric_4*  Prefered: 67, ACTUAL: 148
+
+Reported Time: Thu Apr 12 18:06:03 2018
+
+
+{1 1 39 148 16 130 26 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:06 Monitoring metrics!
+2018/04/12 18:06:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:06 Selecting Device with ID: 1
+2018/04/12 18:06:06 Selecting User with Name: Vlad
+2018/04/12 18:06:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 39
+*Metric_2*  Prefered: 20, ACTUAL: 148
+*Metric_4*  Prefered: 67, ACTUAL: 148
+
+Reported Time: Thu Apr 12 18:06:06 2018
+
+
+{1 1 39 148 16 130 26 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:07 Registering metrics from devices...
+2018/04/12 18:06:07 Updating metrics: 1 map[1:97 2:35 3:27 4:132 5:15]
+2018/04/12 18:06:09 Monitoring metrics!
+2018/04/12 18:06:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:09 Selecting Device with ID: 1
+2018/04/12 18:06:09 Selecting User with Name: Vlad
+2018/04/12 18:06:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 97
+*Metric_2*  Prefered: 20, ACTUAL: 35
+*Metric_4*  Prefered: 67, ACTUAL: 35
+
+Reported Time: Thu Apr 12 18:06:09 2018
+
+
+{1 1 97 35 27 132 15 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:12 Registering metrics from devices...
+2018/04/12 18:06:12 Updating metrics: 1 map[2:75 3:134 4:134 5:58 1:36]
+2018/04/12 18:06:12 Monitoring metrics!
+2018/04/12 18:06:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:12 Selecting Device with ID: 1
+2018/04/12 18:06:12 Selecting User with Name: Vlad
+2018/04/12 18:06:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 36
+*Metric_2*  Prefered: 20, ACTUAL: 75
+*Metric_3*  Prefered: 30, ACTUAL: 75
+*Metric_4*  Prefered: 67, ACTUAL: 75
+
+Reported Time: Thu Apr 12 18:06:12 2018
+
+
+{1 1 36 75 134 134 58 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:15 Monitoring metrics!
+2018/04/12 18:06:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:15 Selecting Device with ID: 1
+2018/04/12 18:06:15 Selecting User with Name: Vlad
+2018/04/12 18:06:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 36
+*Metric_2*  Prefered: 20, ACTUAL: 75
+*Metric_3*  Prefered: 30, ACTUAL: 75
+*Metric_4*  Prefered: 67, ACTUAL: 75
+
+Reported Time: Thu Apr 12 18:06:15 2018
+
+
+{1 1 36 75 134 134 58 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:17 Registering metrics from devices...
+2018/04/12 18:06:17 Updating metrics: 1 map[1:145 2:10 3:130 4:19 5:8]
+2018/04/12 18:06:18 Monitoring metrics!
+2018/04/12 18:06:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:18 Selecting Device with ID: 1
+2018/04/12 18:06:18 Selecting User with Name: Vlad
+2018/04/12 18:06:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 145
+*Metric_3*  Prefered: 30, ACTUAL: 10
+
+Reported Time: Thu Apr 12 18:06:18 2018
+
+
+{1 1 145 10 130 19 8 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:21 Monitoring metrics!
+2018/04/12 18:06:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:21 Selecting Device with ID: 1
+2018/04/12 18:06:21 Selecting User with Name: Vlad
+2018/04/12 18:06:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 145
+*Metric_3*  Prefered: 30, ACTUAL: 10
+
+Reported Time: Thu Apr 12 18:06:21 2018
+
+
+{1 1 145 10 130 19 8 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:22 Registering metrics from devices...
+2018/04/12 18:06:22 Updating metrics: 1 map[3:99 4:13 5:30 1:19 2:123]
+2018/04/12 18:06:24 Monitoring metrics!
+2018/04/12 18:06:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:24 Selecting Device with ID: 1
+2018/04/12 18:06:24 Selecting User with Name: Vlad
+2018/04/12 18:06:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 19
+*Metric_2*  Prefered: 20, ACTUAL: 123
+*Metric_3*  Prefered: 30, ACTUAL: 123
+
+Reported Time: Thu Apr 12 18:06:24 2018
+
+
+{1 1 19 123 99 13 30 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:27 Registering metrics from devices...
+2018/04/12 18:06:27 Updating metrics: 1 map[5:83 1:55 2:66 3:144 4:134]
+2018/04/12 18:06:27 Monitoring metrics!
+2018/04/12 18:06:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:27 Selecting Device with ID: 1
+2018/04/12 18:06:27 Selecting User with Name: Vlad
+2018/04/12 18:06:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 55
+*Metric_2*  Prefered: 20, ACTUAL: 66
+*Metric_3*  Prefered: 30, ACTUAL: 66
+*Metric_4*  Prefered: 67, ACTUAL: 66
+
+Reported Time: Thu Apr 12 18:06:27 2018
+
+
+{1 1 55 66 144 134 83 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:30 Monitoring metrics!
+2018/04/12 18:06:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:30 Selecting Device with ID: 1
+2018/04/12 18:06:30 Selecting User with Name: Vlad
+2018/04/12 18:06:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 55
+*Metric_2*  Prefered: 20, ACTUAL: 66
+*Metric_3*  Prefered: 30, ACTUAL: 66
+*Metric_4*  Prefered: 67, ACTUAL: 66
+
+Reported Time: Thu Apr 12 18:06:30 2018
+
+
+{1 1 55 66 144 134 83 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:32 Registering metrics from devices...
+2018/04/12 18:06:32 Updating metrics: 1 map[5:133 1:9 2:51 3:130 4:132]
+2018/04/12 18:06:33 Monitoring metrics!
+2018/04/12 18:06:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:33 Selecting Device with ID: 1
+2018/04/12 18:06:33 Selecting User with Name: Vlad
+2018/04/12 18:06:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+*Metric_5*  Prefered: 89, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:06:33 2018
+
+
+{1 1 9 51 130 132 133 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:36 Monitoring metrics!
+2018/04/12 18:06:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:36 Selecting Device with ID: 1
+2018/04/12 18:06:36 Selecting User with Name: Vlad
+2018/04/12 18:06:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+*Metric_5*  Prefered: 89, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:06:36 2018
+
+
+{1 1 9 51 130 132 133 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:37 Registering metrics from devices...
+2018/04/12 18:06:37 Updating metrics: 1 map[1:63 2:110 3:127 4:106 5:96]
+2018/04/12 18:06:39 Monitoring metrics!
+2018/04/12 18:06:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:39 Selecting Device with ID: 1
+2018/04/12 18:06:39 Selecting User with Name: Vlad
+2018/04/12 18:06:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 63
+*Metric_2*  Prefered: 20, ACTUAL: 110
+*Metric_3*  Prefered: 30, ACTUAL: 110
+*Metric_4*  Prefered: 67, ACTUAL: 110
+*Metric_5*  Prefered: 89, ACTUAL: 110
+
+Reported Time: Thu Apr 12 18:06:39 2018
+
+
+{1 1 63 110 127 106 96 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:42 Registering metrics from devices...
+2018/04/12 18:06:42 Updating metrics: 1 map[1:84 2:27 3:98 4:45 5:123]
+2018/04/12 18:06:42 Monitoring metrics!
+2018/04/12 18:06:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:42 Selecting Device with ID: 1
+2018/04/12 18:06:42 Selecting User with Name: Vlad
+2018/04/12 18:06:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 84
+*Metric_2*  Prefered: 20, ACTUAL: 27
+*Metric_3*  Prefered: 30, ACTUAL: 27
+*Metric_5*  Prefered: 89, ACTUAL: 27
+
+Reported Time: Thu Apr 12 18:06:42 2018
+
+
+{1 1 84 27 98 45 123 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:45 Monitoring metrics!
+2018/04/12 18:06:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:45 Selecting Device with ID: 1
+2018/04/12 18:06:45 Selecting User with Name: Vlad
+2018/04/12 18:06:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 84
+*Metric_2*  Prefered: 20, ACTUAL: 27
+*Metric_3*  Prefered: 30, ACTUAL: 27
+*Metric_5*  Prefered: 89, ACTUAL: 27
+
+Reported Time: Thu Apr 12 18:06:45 2018
+
+
+{1 1 84 27 98 45 123 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:47 Registering metrics from devices...
+2018/04/12 18:06:47 Updating metrics: 1 map[2:52 3:78 4:51 5:79 1:7]
+2018/04/12 18:06:48 Monitoring metrics!
+2018/04/12 18:06:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:48 Selecting Device with ID: 1
+2018/04/12 18:06:48 Selecting User with Name: Vlad
+2018/04/12 18:06:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 52
+*Metric_3*  Prefered: 30, ACTUAL: 52
+
+Reported Time: Thu Apr 12 18:06:48 2018
+
+
+{1 1 7 52 78 51 79 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:51 Monitoring metrics!
+2018/04/12 18:06:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:51 Selecting Device with ID: 1
+2018/04/12 18:06:51 Selecting User with Name: Vlad
+2018/04/12 18:06:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 52
+*Metric_3*  Prefered: 30, ACTUAL: 52
+
+Reported Time: Thu Apr 12 18:06:51 2018
+
+
+{1 1 7 52 78 51 79 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:52 Registering metrics from devices...
+2018/04/12 18:06:52 Updating metrics: 1 map[1:33 2:46 3:91 4:41 5:32]
+2018/04/12 18:06:54 Monitoring metrics!
+2018/04/12 18:06:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:54 Selecting Device with ID: 1
+2018/04/12 18:06:54 Selecting User with Name: Vlad
+2018/04/12 18:06:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 33
+*Metric_2*  Prefered: 20, ACTUAL: 46
+*Metric_3*  Prefered: 30, ACTUAL: 46
+
+Reported Time: Thu Apr 12 18:06:54 2018
+
+
+{1 1 33 46 91 41 32 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:06:57 Registering metrics from devices...
+2018/04/12 18:06:57 Updating metrics: 1 map[5:72 1:126 2:57 3:10 4:40]
+2018/04/12 18:06:57 Monitoring metrics!
+2018/04/12 18:06:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:06:57 Selecting Device with ID: 1
+2018/04/12 18:06:57 Selecting User with Name: Vlad
+2018/04/12 18:06:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 126
+*Metric_2*  Prefered: 20, ACTUAL: 57
+
+Reported Time: Thu Apr 12 18:06:57 2018
+
+
+{1 1 126 57 10 40 72 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:00 Monitoring metrics!
+2018/04/12 18:07:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:00 Selecting Device with ID: 1
+2018/04/12 18:07:00 Selecting User with Name: Vlad
+2018/04/12 18:07:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 126
+*Metric_2*  Prefered: 20, ACTUAL: 57
+
+Reported Time: Thu Apr 12 18:07:00 2018
+
+
+{1 1 126 57 10 40 72 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:02 Registering metrics from devices...
+2018/04/12 18:07:02 Updating metrics: 1 map[4:76 5:34 1:139 2:71 3:32]
+2018/04/12 18:07:03 Monitoring metrics!
+2018/04/12 18:07:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:03 Selecting Device with ID: 1
+2018/04/12 18:07:03 Selecting User with Name: Vlad
+2018/04/12 18:07:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 71
+*Metric_3*  Prefered: 30, ACTUAL: 71
+*Metric_4*  Prefered: 67, ACTUAL: 71
+
+Reported Time: Thu Apr 12 18:07:03 2018
+
+
+{1 1 139 71 32 76 34 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:06 Monitoring metrics!
+2018/04/12 18:07:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:06 Selecting Device with ID: 1
+2018/04/12 18:07:06 Selecting User with Name: Vlad
+2018/04/12 18:07:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 71
+*Metric_3*  Prefered: 30, ACTUAL: 71
+*Metric_4*  Prefered: 67, ACTUAL: 71
+
+Reported Time: Thu Apr 12 18:07:06 2018
+
+
+{1 1 139 71 32 76 34 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:07 Registering metrics from devices...
+2018/04/12 18:07:07 Updating metrics: 1 map[5:135 1:15 2:109 3:134 4:122]
+2018/04/12 18:07:09 Monitoring metrics!
+2018/04/12 18:07:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:09 Selecting Device with ID: 1
+2018/04/12 18:07:09 Selecting User with Name: Vlad
+2018/04/12 18:07:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 15
+*Metric_2*  Prefered: 20, ACTUAL: 109
+*Metric_3*  Prefered: 30, ACTUAL: 109
+*Metric_4*  Prefered: 67, ACTUAL: 109
+*Metric_5*  Prefered: 89, ACTUAL: 109
+
+Reported Time: Thu Apr 12 18:07:09 2018
+
+
+{1 1 15 109 134 122 135 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:12 Registering metrics from devices...
+2018/04/12 18:07:12 Updating metrics: 1 map[1:55 2:95 3:66 4:10 5:49]
+2018/04/12 18:07:12 Monitoring metrics!
+2018/04/12 18:07:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:12 Selecting Device with ID: 1
+2018/04/12 18:07:12 Selecting User with Name: Vlad
+2018/04/12 18:07:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 55
+*Metric_2*  Prefered: 20, ACTUAL: 95
+*Metric_3*  Prefered: 30, ACTUAL: 95
+
+Reported Time: Thu Apr 12 18:07:12 2018
+
+
+{1 1 55 95 66 10 49 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:15 Monitoring metrics!
+2018/04/12 18:07:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:15 Selecting Device with ID: 1
+2018/04/12 18:07:15 Selecting User with Name: Vlad
+2018/04/12 18:07:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 55
+*Metric_2*  Prefered: 20, ACTUAL: 95
+*Metric_3*  Prefered: 30, ACTUAL: 95
+
+Reported Time: Thu Apr 12 18:07:15 2018
+
+
+{1 1 55 95 66 10 49 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:17 Registering metrics from devices...
+2018/04/12 18:07:17 Updating metrics: 1 map[1:118 2:29 3:16 4:85 5:13]
+2018/04/12 18:07:18 Monitoring metrics!
+2018/04/12 18:07:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:18 Selecting Device with ID: 1
+2018/04/12 18:07:18 Selecting User with Name: Vlad
+2018/04/12 18:07:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 118
+*Metric_2*  Prefered: 20, ACTUAL: 29
+*Metric_4*  Prefered: 67, ACTUAL: 29
+
+Reported Time: Thu Apr 12 18:07:18 2018
+
+
+{1 1 118 29 16 85 13 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:21 Monitoring metrics!
+2018/04/12 18:07:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:21 Selecting Device with ID: 1
+2018/04/12 18:07:21 Selecting User with Name: Vlad
+2018/04/12 18:07:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 118
+*Metric_2*  Prefered: 20, ACTUAL: 29
+*Metric_4*  Prefered: 67, ACTUAL: 29
+
+Reported Time: Thu Apr 12 18:07:21 2018
+
+
+{1 1 118 29 16 85 13 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:22 Registering metrics from devices...
+2018/04/12 18:07:22 Updating metrics: 1 map[4:78 5:76 1:63 2:148 3:30]
+2018/04/12 18:07:24 Monitoring metrics!
+2018/04/12 18:07:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:24 Selecting Device with ID: 1
+2018/04/12 18:07:24 Selecting User with Name: Vlad
+2018/04/12 18:07:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 63
+*Metric_2*  Prefered: 20, ACTUAL: 148
+*Metric_4*  Prefered: 67, ACTUAL: 148
+
+Reported Time: Thu Apr 12 18:07:24 2018
+
+
+{1 1 63 148 30 78 76 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:27 Registering metrics from devices...
+2018/04/12 18:07:27 Updating metrics: 1 map[5:8 1:70 2:14 3:145 4:64]
+2018/04/12 18:07:27 Monitoring metrics!
+2018/04/12 18:07:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:27 Selecting Device with ID: 1
+2018/04/12 18:07:27 Selecting User with Name: Vlad
+2018/04/12 18:07:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 70
+*Metric_3*  Prefered: 30, ACTUAL: 14
+
+Reported Time: Thu Apr 12 18:07:27 2018
+
+
+{1 1 70 14 145 64 8 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:30 Monitoring metrics!
+2018/04/12 18:07:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:30 Selecting Device with ID: 1
+2018/04/12 18:07:30 Selecting User with Name: Vlad
+2018/04/12 18:07:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 70
+*Metric_3*  Prefered: 30, ACTUAL: 14
+
+Reported Time: Thu Apr 12 18:07:30 2018
+
+
+{1 1 70 14 145 64 8 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:32 Registering metrics from devices...
+2018/04/12 18:07:32 Updating metrics: 1 map[1:69 2:139 3:146 4:35 5:139]
+2018/04/12 18:07:33 Monitoring metrics!
+2018/04/12 18:07:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:33 Selecting Device with ID: 1
+2018/04/12 18:07:33 Selecting User with Name: Vlad
+2018/04/12 18:07:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 69
+*Metric_2*  Prefered: 20, ACTUAL: 139
+*Metric_3*  Prefered: 30, ACTUAL: 139
+*Metric_5*  Prefered: 89, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:07:33 2018
+
+
+{1 1 69 139 146 35 139 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:36 Monitoring metrics!
+2018/04/12 18:07:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:36 Selecting Device with ID: 1
+2018/04/12 18:07:36 Selecting User with Name: Vlad
+2018/04/12 18:07:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 69
+*Metric_2*  Prefered: 20, ACTUAL: 139
+*Metric_3*  Prefered: 30, ACTUAL: 139
+*Metric_5*  Prefered: 89, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:07:36 2018
+
+
+{1 1 69 139 146 35 139 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:37 Registering metrics from devices...
+2018/04/12 18:07:37 Updating metrics: 1 map[2:76 3:111 4:123 5:143 1:13]
+2018/04/12 18:07:39 Monitoring metrics!
+2018/04/12 18:07:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:39 Selecting Device with ID: 1
+2018/04/12 18:07:39 Selecting User with Name: Vlad
+2018/04/12 18:07:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 13
+*Metric_2*  Prefered: 20, ACTUAL: 76
+*Metric_3*  Prefered: 30, ACTUAL: 76
+*Metric_4*  Prefered: 67, ACTUAL: 76
+*Metric_5*  Prefered: 89, ACTUAL: 76
+
+Reported Time: Thu Apr 12 18:07:39 2018
+
+
+{1 1 13 76 111 123 143 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:42 Registering metrics from devices...
+2018/04/12 18:07:42 Updating metrics: 1 map[5:140 1:78 2:142 3:47 4:120]
+2018/04/12 18:07:42 Monitoring metrics!
+2018/04/12 18:07:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:42 Selecting Device with ID: 1
+2018/04/12 18:07:42 Selecting User with Name: Vlad
+2018/04/12 18:07:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 78
+*Metric_2*  Prefered: 20, ACTUAL: 142
+*Metric_3*  Prefered: 30, ACTUAL: 142
+*Metric_4*  Prefered: 67, ACTUAL: 142
+*Metric_5*  Prefered: 89, ACTUAL: 142
+
+Reported Time: Thu Apr 12 18:07:42 2018
+
+
+{1 1 78 142 47 120 140 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:45 Monitoring metrics!
+2018/04/12 18:07:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:45 Selecting Device with ID: 1
+2018/04/12 18:07:45 Selecting User with Name: Vlad
+2018/04/12 18:07:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 78
+*Metric_2*  Prefered: 20, ACTUAL: 142
+*Metric_3*  Prefered: 30, ACTUAL: 142
+*Metric_4*  Prefered: 67, ACTUAL: 142
+*Metric_5*  Prefered: 89, ACTUAL: 142
+
+Reported Time: Thu Apr 12 18:07:45 2018
+
+
+{1 1 78 142 47 120 140 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:47 Registering metrics from devices...
+2018/04/12 18:07:47 Updating metrics: 1 map[3:15 4:124 5:123 1:49 2:39]
+2018/04/12 18:07:48 Monitoring metrics!
+2018/04/12 18:07:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:48 Selecting Device with ID: 1
+2018/04/12 18:07:48 Selecting User with Name: Vlad
+2018/04/12 18:07:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 49
+*Metric_2*  Prefered: 20, ACTUAL: 39
+*Metric_4*  Prefered: 67, ACTUAL: 39
+*Metric_5*  Prefered: 89, ACTUAL: 39
+
+Reported Time: Thu Apr 12 18:07:48 2018
+
+
+{1 1 49 39 15 124 123 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:51 Monitoring metrics!
+2018/04/12 18:07:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:51 Selecting Device with ID: 1
+2018/04/12 18:07:51 Selecting User with Name: Vlad
+2018/04/12 18:07:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 49
+*Metric_2*  Prefered: 20, ACTUAL: 39
+*Metric_4*  Prefered: 67, ACTUAL: 39
+*Metric_5*  Prefered: 89, ACTUAL: 39
+
+Reported Time: Thu Apr 12 18:07:51 2018
+
+
+{1 1 49 39 15 124 123 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:52 Registering metrics from devices...
+2018/04/12 18:07:52 Updating metrics: 1 map[1:64 2:140 3:129 4:102 5:67]
+2018/04/12 18:07:54 Monitoring metrics!
+2018/04/12 18:07:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:54 Selecting Device with ID: 1
+2018/04/12 18:07:54 Selecting User with Name: Vlad
+2018/04/12 18:07:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 64
+*Metric_2*  Prefered: 20, ACTUAL: 140
+*Metric_3*  Prefered: 30, ACTUAL: 140
+*Metric_4*  Prefered: 67, ACTUAL: 140
+
+Reported Time: Thu Apr 12 18:07:54 2018
+
+
+{1 1 64 140 129 102 67 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:07:57 Registering metrics from devices...
+2018/04/12 18:07:57 Updating metrics: 1 map[1:120 2:72 3:59 4:63 5:31]
+2018/04/12 18:07:57 Monitoring metrics!
+2018/04/12 18:07:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:07:57 Selecting Device with ID: 1
+2018/04/12 18:07:57 Selecting User with Name: Vlad
+2018/04/12 18:07:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 120
+*Metric_2*  Prefered: 20, ACTUAL: 72
+*Metric_3*  Prefered: 30, ACTUAL: 72
+
+Reported Time: Thu Apr 12 18:07:57 2018
+
+
+{1 1 120 72 59 63 31 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:00 Monitoring metrics!
+2018/04/12 18:08:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:00 Selecting Device with ID: 1
+2018/04/12 18:08:00 Selecting User with Name: Vlad
+2018/04/12 18:08:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 120
+*Metric_2*  Prefered: 20, ACTUAL: 72
+*Metric_3*  Prefered: 30, ACTUAL: 72
+
+Reported Time: Thu Apr 12 18:08:00 2018
+
+
+{1 1 120 72 59 63 31 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:02 Registering metrics from devices...
+2018/04/12 18:08:02 Updating metrics: 1 map[1:49 2:117 3:28 4:72 5:136]
+2018/04/12 18:08:03 Monitoring metrics!
+2018/04/12 18:08:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:03 Selecting Device with ID: 1
+2018/04/12 18:08:03 Selecting User with Name: Vlad
+2018/04/12 18:08:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 49
+*Metric_2*  Prefered: 20, ACTUAL: 117
+*Metric_4*  Prefered: 67, ACTUAL: 117
+*Metric_5*  Prefered: 89, ACTUAL: 117
+
+Reported Time: Thu Apr 12 18:08:03 2018
+
+
+{1 1 49 117 28 72 136 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:06 Monitoring metrics!
+2018/04/12 18:08:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:06 Selecting Device with ID: 1
+2018/04/12 18:08:06 Selecting User with Name: Vlad
+2018/04/12 18:08:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 49
+*Metric_2*  Prefered: 20, ACTUAL: 117
+*Metric_4*  Prefered: 67, ACTUAL: 117
+*Metric_5*  Prefered: 89, ACTUAL: 117
+
+Reported Time: Thu Apr 12 18:08:06 2018
+
+
+{1 1 49 117 28 72 136 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:07 Registering metrics from devices...
+2018/04/12 18:08:07 Updating metrics: 1 map[1:21 2:84 3:139 4:32 5:87]
+2018/04/12 18:08:09 Monitoring metrics!
+2018/04/12 18:08:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:09 Selecting Device with ID: 1
+2018/04/12 18:08:09 Selecting User with Name: Vlad
+2018/04/12 18:08:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 21
+*Metric_2*  Prefered: 20, ACTUAL: 84
+*Metric_3*  Prefered: 30, ACTUAL: 84
+
+Reported Time: Thu Apr 12 18:08:09 2018
+
+
+{1 1 21 84 139 32 87 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:12 Registering metrics from devices...
+2018/04/12 18:08:12 Updating metrics: 1 map[2:71 3:140 4:46 5:32 1:103]
+2018/04/12 18:08:12 Monitoring metrics!
+2018/04/12 18:08:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:12 Selecting Device with ID: 1
+2018/04/12 18:08:12 Selecting User with Name: Vlad
+2018/04/12 18:08:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 103
+*Metric_2*  Prefered: 20, ACTUAL: 71
+*Metric_3*  Prefered: 30, ACTUAL: 71
+
+Reported Time: Thu Apr 12 18:08:12 2018
+
+
+{1 1 103 71 140 46 32 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:15 Monitoring metrics!
+2018/04/12 18:08:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:15 Selecting Device with ID: 1
+2018/04/12 18:08:15 Selecting User with Name: Vlad
+2018/04/12 18:08:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 103
+*Metric_2*  Prefered: 20, ACTUAL: 71
+*Metric_3*  Prefered: 30, ACTUAL: 71
+
+Reported Time: Thu Apr 12 18:08:15 2018
+
+
+{1 1 103 71 140 46 32 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:17 Registering metrics from devices...
+2018/04/12 18:08:17 Updating metrics: 1 map[1:38 2:28 3:98 4:48 5:79]
+2018/04/12 18:08:18 Monitoring metrics!
+2018/04/12 18:08:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:18 Selecting Device with ID: 1
+2018/04/12 18:08:18 Selecting User with Name: Vlad
+2018/04/12 18:08:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 38
+*Metric_2*  Prefered: 20, ACTUAL: 28
+*Metric_3*  Prefered: 30, ACTUAL: 28
+
+Reported Time: Thu Apr 12 18:08:18 2018
+
+
+{1 1 38 28 98 48 79 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:21 Monitoring metrics!
+2018/04/12 18:08:21 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:21 Selecting Device with ID: 1
+2018/04/12 18:08:21 Selecting User with Name: Vlad
+2018/04/12 18:08:21 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 38
+*Metric_2*  Prefered: 20, ACTUAL: 28
+*Metric_3*  Prefered: 30, ACTUAL: 28
+
+Reported Time: Thu Apr 12 18:08:21 2018
+
+
+{1 1 38 28 98 48 79 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:22 Registering metrics from devices...
+2018/04/12 18:08:22 Updating metrics: 1 map[3:48 4:93 5:75 1:108 2:127]
+2018/04/12 18:08:24 Monitoring metrics!
+2018/04/12 18:08:24 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:24 Selecting Device with ID: 1
+2018/04/12 18:08:24 Selecting User with Name: Vlad
+2018/04/12 18:08:24 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 108
+*Metric_2*  Prefered: 20, ACTUAL: 127
+*Metric_3*  Prefered: 30, ACTUAL: 127
+*Metric_4*  Prefered: 67, ACTUAL: 127
+
+Reported Time: Thu Apr 12 18:08:24 2018
+
+
+{1 1 108 127 48 93 75 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:27 Registering metrics from devices...
+2018/04/12 18:08:27 Updating metrics: 1 map[1:4 2:103 3:30 4:15 5:35]
+2018/04/12 18:08:27 Monitoring metrics!
+2018/04/12 18:08:27 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:27 Selecting Device with ID: 1
+2018/04/12 18:08:27 Selecting User with Name: Vlad
+2018/04/12 18:08:27 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 103
+
+Reported Time: Thu Apr 12 18:08:27 2018
+
+
+{1 1 4 103 30 15 35 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:30 Monitoring metrics!
+2018/04/12 18:08:30 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:30 Selecting Device with ID: 1
+2018/04/12 18:08:30 Selecting User with Name: Vlad
+2018/04/12 18:08:30 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_2*  Prefered: 20, ACTUAL: 103
+
+Reported Time: Thu Apr 12 18:08:30 2018
+
+
+{1 1 4 103 30 15 35 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:32 Registering metrics from devices...
+2018/04/12 18:08:32 Updating metrics: 1 map[3:61 4:148 5:115 1:128 2:64]
+2018/04/12 18:08:33 Monitoring metrics!
+2018/04/12 18:08:33 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:33 Selecting Device with ID: 1
+2018/04/12 18:08:33 Selecting User with Name: Vlad
+2018/04/12 18:08:33 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 128
+*Metric_2*  Prefered: 20, ACTUAL: 64
+*Metric_3*  Prefered: 30, ACTUAL: 64
+*Metric_4*  Prefered: 67, ACTUAL: 64
+*Metric_5*  Prefered: 89, ACTUAL: 64
+
+Reported Time: Thu Apr 12 18:08:33 2018
+
+
+{1 1 128 64 61 148 115 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:36 Monitoring metrics!
+2018/04/12 18:08:36 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:36 Selecting Device with ID: 1
+2018/04/12 18:08:36 Selecting User with Name: Vlad
+2018/04/12 18:08:36 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 128
+*Metric_2*  Prefered: 20, ACTUAL: 64
+*Metric_3*  Prefered: 30, ACTUAL: 64
+*Metric_4*  Prefered: 67, ACTUAL: 64
+*Metric_5*  Prefered: 89, ACTUAL: 64
+
+Reported Time: Thu Apr 12 18:08:36 2018
+
+
+{1 1 128 64 61 148 115 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:37 Registering metrics from devices...
+2018/04/12 18:08:37 Updating metrics: 1 map[1:76 2:148 3:93 4:91 5:120]
+2018/04/12 18:08:39 Monitoring metrics!
+2018/04/12 18:08:39 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:39 Selecting Device with ID: 1
+2018/04/12 18:08:39 Selecting User with Name: Vlad
+2018/04/12 18:08:39 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 76
+*Metric_2*  Prefered: 20, ACTUAL: 148
+*Metric_3*  Prefered: 30, ACTUAL: 148
+*Metric_4*  Prefered: 67, ACTUAL: 148
+*Metric_5*  Prefered: 89, ACTUAL: 148
+
+Reported Time: Thu Apr 12 18:08:39 2018
+
+
+{1 1 76 148 93 91 120 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:42 Registering metrics from devices...
+2018/04/12 18:08:42 Updating metrics: 1 map[1:147 2:92 3:134 4:1 5:124]
+2018/04/12 18:08:42 Monitoring metrics!
+2018/04/12 18:08:42 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:42 Selecting Device with ID: 1
+2018/04/12 18:08:42 Selecting User with Name: Vlad
+2018/04/12 18:08:42 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 147
+*Metric_2*  Prefered: 20, ACTUAL: 92
+*Metric_3*  Prefered: 30, ACTUAL: 92
+*Metric_5*  Prefered: 89, ACTUAL: 92
+
+Reported Time: Thu Apr 12 18:08:42 2018
+
+
+{1 1 147 92 134 1 124 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:45 Monitoring metrics!
+2018/04/12 18:08:45 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:45 Selecting Device with ID: 1
+2018/04/12 18:08:45 Selecting User with Name: Vlad
+2018/04/12 18:08:45 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 147
+*Metric_2*  Prefered: 20, ACTUAL: 92
+*Metric_3*  Prefered: 30, ACTUAL: 92
+*Metric_5*  Prefered: 89, ACTUAL: 92
+
+Reported Time: Thu Apr 12 18:08:45 2018
+
+
+{1 1 147 92 134 1 124 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:47 Registering metrics from devices...
+2018/04/12 18:08:47 Updating metrics: 1 map[3:90 4:123 5:85 1:48 2:70]
+2018/04/12 18:08:48 Monitoring metrics!
+2018/04/12 18:08:48 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:48 Selecting Device with ID: 1
+2018/04/12 18:08:48 Selecting User with Name: Vlad
+2018/04/12 18:08:48 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 48
+*Metric_2*  Prefered: 20, ACTUAL: 70
+*Metric_3*  Prefered: 30, ACTUAL: 70
+*Metric_4*  Prefered: 67, ACTUAL: 70
+
+Reported Time: Thu Apr 12 18:08:48 2018
+
+
+{1 1 48 70 90 123 85 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:51 Monitoring metrics!
+2018/04/12 18:08:51 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:51 Selecting Device with ID: 1
+2018/04/12 18:08:51 Selecting User with Name: Vlad
+2018/04/12 18:08:51 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 48
+*Metric_2*  Prefered: 20, ACTUAL: 70
+*Metric_3*  Prefered: 30, ACTUAL: 70
+*Metric_4*  Prefered: 67, ACTUAL: 70
+
+Reported Time: Thu Apr 12 18:08:51 2018
+
+
+{1 1 48 70 90 123 85 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:52 Registering metrics from devices...
+2018/04/12 18:08:52 Updating metrics: 1 map[1:67 2:49 3:149 4:135 5:123]
+2018/04/12 18:08:54 Monitoring metrics!
+2018/04/12 18:08:54 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:54 Selecting Device with ID: 1
+2018/04/12 18:08:54 Selecting User with Name: Vlad
+2018/04/12 18:08:54 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 67
+*Metric_2*  Prefered: 20, ACTUAL: 49
+*Metric_3*  Prefered: 30, ACTUAL: 49
+*Metric_4*  Prefered: 67, ACTUAL: 49
+*Metric_5*  Prefered: 89, ACTUAL: 49
+
+Reported Time: Thu Apr 12 18:08:54 2018
+
+
+{1 1 67 49 149 135 123 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:08:57 Registering metrics from devices...
+2018/04/12 18:08:57 Updating metrics: 1 map[1:64 2:111 3:139 4:59 5:98]
+2018/04/12 18:08:57 Monitoring metrics!
+2018/04/12 18:08:57 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:08:57 Selecting Device with ID: 1
+2018/04/12 18:08:57 Selecting User with Name: Vlad
+2018/04/12 18:08:57 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 64
+*Metric_2*  Prefered: 20, ACTUAL: 111
+*Metric_3*  Prefered: 30, ACTUAL: 111
+*Metric_5*  Prefered: 89, ACTUAL: 111
+
+Reported Time: Thu Apr 12 18:08:57 2018
+
+
+{1 1 64 111 139 59 98 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:00 Monitoring metrics!
+2018/04/12 18:09:00 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:00 Selecting Device with ID: 1
+2018/04/12 18:09:00 Selecting User with Name: Vlad
+2018/04/12 18:09:00 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 64
+*Metric_2*  Prefered: 20, ACTUAL: 111
+*Metric_3*  Prefered: 30, ACTUAL: 111
+*Metric_5*  Prefered: 89, ACTUAL: 111
+
+Reported Time: Thu Apr 12 18:09:00 2018
+
+
+{1 1 64 111 139 59 98 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:02 Registering metrics from devices...
+2018/04/12 18:09:02 Updating metrics: 1 map[1:139 2:15 3:14 4:32 5:41]
+2018/04/12 18:09:03 Monitoring metrics!
+2018/04/12 18:09:03 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:03 Selecting Device with ID: 1
+2018/04/12 18:09:03 Selecting User with Name: Vlad
+2018/04/12 18:09:03 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:09:03 2018
+
+
+{1 1 139 15 14 32 41 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:06 Monitoring metrics!
+2018/04/12 18:09:06 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:06 Selecting Device with ID: 1
+2018/04/12 18:09:06 Selecting User with Name: Vlad
+2018/04/12 18:09:06 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:09:06 2018
+
+
+{1 1 139 15 14 32 41 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:07 Registering metrics from devices...
+2018/04/12 18:09:07 Updating metrics: 1 map[5:115 1:92 2:17 3:44 4:54]
+2018/04/12 18:09:09 Monitoring metrics!
+2018/04/12 18:09:09 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:09 Selecting Device with ID: 1
+2018/04/12 18:09:09 Selecting User with Name: Vlad
+2018/04/12 18:09:09 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 92
+*Metric_3*  Prefered: 30, ACTUAL: 17
+*Metric_5*  Prefered: 89, ACTUAL: 17
+
+Reported Time: Thu Apr 12 18:09:09 2018
+
+
+{1 1 92 17 44 54 115 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:12 Registering metrics from devices...
+2018/04/12 18:09:12 Updating metrics: 1 map[2:122 3:100 4:17 5:142 1:100]
+2018/04/12 18:09:12 Monitoring metrics!
+2018/04/12 18:09:12 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:12 Selecting Device with ID: 1
+2018/04/12 18:09:12 Selecting User with Name: Vlad
+2018/04/12 18:09:12 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 100
+*Metric_2*  Prefered: 20, ACTUAL: 122
+*Metric_3*  Prefered: 30, ACTUAL: 122
+*Metric_5*  Prefered: 89, ACTUAL: 122
+
+Reported Time: Thu Apr 12 18:09:12 2018
+
+
+{1 1 100 122 100 17 142 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:15 Monitoring metrics!
+2018/04/12 18:09:15 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:15 Selecting Device with ID: 1
+2018/04/12 18:09:15 Selecting User with Name: Vlad
+2018/04/12 18:09:15 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 100
+*Metric_2*  Prefered: 20, ACTUAL: 122
+*Metric_3*  Prefered: 30, ACTUAL: 122
+*Metric_5*  Prefered: 89, ACTUAL: 122
+
+Reported Time: Thu Apr 12 18:09:15 2018
+
+
+{1 1 100 122 100 17 142 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:17 Registering metrics from devices...
+2018/04/12 18:09:17 Updating metrics: 1 map[2:110 3:90 4:77 5:131 1:48]
+2018/04/12 18:09:18 Monitoring metrics!
+2018/04/12 18:09:18 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:18 Selecting Device with ID: 1
+2018/04/12 18:09:18 Selecting User with Name: Vlad
+2018/04/12 18:09:18 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 48
+*Metric_2*  Prefered: 20, ACTUAL: 110
+*Metric_3*  Prefered: 30, ACTUAL: 110
+*Metric_4*  Prefered: 67, ACTUAL: 110
+*Metric_5*  Prefered: 89, ACTUAL: 110
+
+Reported Time: Thu Apr 12 18:09:18 2018
+
+
+{1 1 48 110 90 77 131 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:21 Monitoring metrics!
+2018/04/12 18:09:22 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:22 Selecting Device with ID: 1
+2018/04/12 18:09:22 Selecting User with Name: Vlad
+2018/04/12 18:09:22 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 48
+*Metric_2*  Prefered: 20, ACTUAL: 110
+*Metric_3*  Prefered: 30, ACTUAL: 110
+*Metric_4*  Prefered: 67, ACTUAL: 110
+*Metric_5*  Prefered: 89, ACTUAL: 110
+
+Reported Time: Thu Apr 12 18:09:22 2018
+
+
+{1 1 48 110 90 77 131 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:22 Registering metrics from devices...
+2018/04/12 18:09:22 Updating metrics: 1 map[2:90 3:19 4:35 5:84 1:64]
+2018/04/12 18:09:25 Monitoring metrics!
+2018/04/12 18:09:25 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:25 Selecting Device with ID: 1
+2018/04/12 18:09:25 Selecting User with Name: Vlad
+2018/04/12 18:09:25 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 64
+*Metric_2*  Prefered: 20, ACTUAL: 90
+
+Reported Time: Thu Apr 12 18:09:25 2018
+
+
+{1 1 64 90 19 35 84 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:27 Registering metrics from devices...
+2018/04/12 18:09:27 Updating metrics: 1 map[1:142 2:139 3:126 4:106 5:132]
+2018/04/12 18:09:28 Monitoring metrics!
+2018/04/12 18:09:28 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:28 Selecting Device with ID: 1
+2018/04/12 18:09:28 Selecting User with Name: Vlad
+2018/04/12 18:09:28 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 142
+*Metric_2*  Prefered: 20, ACTUAL: 139
+*Metric_3*  Prefered: 30, ACTUAL: 139
+*Metric_4*  Prefered: 67, ACTUAL: 139
+*Metric_5*  Prefered: 89, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:09:28 2018
+
+
+{1 1 142 139 126 106 132 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:31 Monitoring metrics!
+2018/04/12 18:09:31 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:31 Selecting Device with ID: 1
+2018/04/12 18:09:31 Selecting User with Name: Vlad
+2018/04/12 18:09:31 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 142
+*Metric_2*  Prefered: 20, ACTUAL: 139
+*Metric_3*  Prefered: 30, ACTUAL: 139
+*Metric_4*  Prefered: 67, ACTUAL: 139
+*Metric_5*  Prefered: 89, ACTUAL: 139
+
+Reported Time: Thu Apr 12 18:09:31 2018
+
+
+{1 1 142 139 126 106 132 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:32 Registering metrics from devices...
+2018/04/12 18:09:32 Updating metrics: 1 map[1:139 2:123 3:8 4:141 5:46]
+2018/04/12 18:09:34 Monitoring metrics!
+2018/04/12 18:09:34 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:34 Selecting Device with ID: 1
+2018/04/12 18:09:34 Selecting User with Name: Vlad
+2018/04/12 18:09:34 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 123
+*Metric_4*  Prefered: 67, ACTUAL: 123
+
+Reported Time: Thu Apr 12 18:09:34 2018
+
+
+{1 1 139 123 8 141 46 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:37 Monitoring metrics!
+2018/04/12 18:09:37 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:37 Selecting Device with ID: 1
+2018/04/12 18:09:37 Selecting User with Name: Vlad
+2018/04/12 18:09:37 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 139
+*Metric_2*  Prefered: 20, ACTUAL: 123
+*Metric_4*  Prefered: 67, ACTUAL: 123
+
+Reported Time: Thu Apr 12 18:09:37 2018
+
+
+{1 1 139 123 8 141 46 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:37 Registering metrics from devices...
+2018/04/12 18:09:37 Updating metrics: 1 map[1:138 2:65 3:134 4:112 5:117]
+2018/04/12 18:09:40 Monitoring metrics!
+2018/04/12 18:09:40 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:40 Selecting Device with ID: 1
+2018/04/12 18:09:40 Selecting User with Name: Vlad
+2018/04/12 18:09:40 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 138
+*Metric_2*  Prefered: 20, ACTUAL: 65
+*Metric_3*  Prefered: 30, ACTUAL: 65
+*Metric_4*  Prefered: 67, ACTUAL: 65
+*Metric_5*  Prefered: 89, ACTUAL: 65
+
+Reported Time: Thu Apr 12 18:09:40 2018
+
+
+{1 1 138 65 134 112 117 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:42 Registering metrics from devices...
+2018/04/12 18:09:42 Updating metrics: 1 map[5:119 1:34 2:93 3:118 4:73]
+2018/04/12 18:09:43 Monitoring metrics!
+2018/04/12 18:09:43 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:43 Selecting Device with ID: 1
+2018/04/12 18:09:43 Selecting User with Name: Vlad
+2018/04/12 18:09:43 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 34
+*Metric_2*  Prefered: 20, ACTUAL: 93
+*Metric_3*  Prefered: 30, ACTUAL: 93
+*Metric_4*  Prefered: 67, ACTUAL: 93
+*Metric_5*  Prefered: 89, ACTUAL: 93
+
+Reported Time: Thu Apr 12 18:09:43 2018
+
+
+{1 1 34 93 118 73 119 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:46 Monitoring metrics!
+2018/04/12 18:09:46 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:46 Selecting Device with ID: 1
+2018/04/12 18:09:46 Selecting User with Name: Vlad
+2018/04/12 18:09:46 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 34
+*Metric_2*  Prefered: 20, ACTUAL: 93
+*Metric_3*  Prefered: 30, ACTUAL: 93
+*Metric_4*  Prefered: 67, ACTUAL: 93
+*Metric_5*  Prefered: 89, ACTUAL: 93
+
+Reported Time: Thu Apr 12 18:09:46 2018
+
+
+{1 1 34 93 118 73 119 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:47 Registering metrics from devices...
+2018/04/12 18:09:47 Updating metrics: 1 map[1:130 2:51 3:108 4:115 5:99]
+2018/04/12 18:09:49 Monitoring metrics!
+2018/04/12 18:09:49 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:49 Selecting Device with ID: 1
+2018/04/12 18:09:49 Selecting User with Name: Vlad
+2018/04/12 18:09:49 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 130
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+*Metric_5*  Prefered: 89, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:09:49 2018
+
+
+{1 1 130 51 108 115 99 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:52 Monitoring metrics!
+2018/04/12 18:09:52 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:52 Selecting Device with ID: 1
+2018/04/12 18:09:52 Selecting User with Name: Vlad
+2018/04/12 18:09:52 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 130
+*Metric_2*  Prefered: 20, ACTUAL: 51
+*Metric_3*  Prefered: 30, ACTUAL: 51
+*Metric_4*  Prefered: 67, ACTUAL: 51
+*Metric_5*  Prefered: 89, ACTUAL: 51
+
+Reported Time: Thu Apr 12 18:09:52 2018
+
+
+{1 1 130 51 108 115 99 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:52 Registering metrics from devices...
+2018/04/12 18:09:52 Updating metrics: 1 map[4:68 5:86 1:126 2:34 3:54]
+2018/04/12 18:09:55 Monitoring metrics!
+2018/04/12 18:09:55 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:55 Selecting Device with ID: 1
+2018/04/12 18:09:55 Selecting User with Name: Vlad
+2018/04/12 18:09:55 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 126
+*Metric_2*  Prefered: 20, ACTUAL: 34
+*Metric_3*  Prefered: 30, ACTUAL: 34
+*Metric_4*  Prefered: 67, ACTUAL: 34
+
+Reported Time: Thu Apr 12 18:09:55 2018
+
+
+{1 1 126 34 54 68 86 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:09:57 Registering metrics from devices...
+2018/04/12 18:09:57 Updating metrics: 1 map[1:140 2:48 3:84 4:32 5:143]
+2018/04/12 18:09:58 Monitoring metrics!
+2018/04/12 18:09:58 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:09:58 Selecting Device with ID: 1
+2018/04/12 18:09:58 Selecting User with Name: Vlad
+2018/04/12 18:09:58 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 140
+*Metric_2*  Prefered: 20, ACTUAL: 48
+*Metric_3*  Prefered: 30, ACTUAL: 48
+*Metric_5*  Prefered: 89, ACTUAL: 48
+
+Reported Time: Thu Apr 12 18:09:58 2018
+
+
+{1 1 140 48 84 32 143 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:10:01 Monitoring metrics!
+2018/04/12 18:10:01 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:10:01 Selecting Device with ID: 1
+2018/04/12 18:10:01 Selecting User with Name: Vlad
+2018/04/12 18:10:01 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 140
+*Metric_2*  Prefered: 20, ACTUAL: 48
+*Metric_3*  Prefered: 30, ACTUAL: 48
+*Metric_5*  Prefered: 89, ACTUAL: 48
+
+Reported Time: Thu Apr 12 18:10:01 2018
+
+
+{1 1 140 48 84 32 143 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:10:02 Registering metrics from devices...
+2018/04/12 18:10:02 Updating metrics: 1 map[1:38 2:131 3:57 4:139 5:126]
+2018/04/12 18:10:04 Monitoring metrics!
+2018/04/12 18:10:04 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:10:04 Selecting Device with ID: 1
+2018/04/12 18:10:04 Selecting User with Name: Vlad
+2018/04/12 18:10:04 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 38
+*Metric_2*  Prefered: 20, ACTUAL: 131
+*Metric_3*  Prefered: 30, ACTUAL: 131
+*Metric_4*  Prefered: 67, ACTUAL: 131
+*Metric_5*  Prefered: 89, ACTUAL: 131
+
+Reported Time: Thu Apr 12 18:10:04 2018
+
+
+{1 1 38 131 57 139 126 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:10:07 Monitoring metrics!
+2018/04/12 18:10:07 Looks like we got metrics trouble on Device_ID: 1
+2018/04/12 18:10:07 Selecting Device with ID: 1
+2018/04/12 18:10:07 Selecting User with Name: Vlad
+2018/04/12 18:10:07 TROUBLE WITH METRICS!
+User information:
+User ID: 1
+User Name: Vlad
+User Email: @mail
+
+Device information: 
+
+Device ID: 1
+Device Name: server
+
+For Device Metrics ID: 1
+*Metric_1*  Prefered: 10, ACTUAL: 38
+*Metric_2*  Prefered: 20, ACTUAL: 131
+*Metric_3*  Prefered: 30, ACTUAL: 131
+*Metric_4*  Prefered: 67, ACTUAL: 131
+*Metric_5*  Prefered: 89, ACTUAL: 131
+
+Reported Time: Thu Apr 12 18:10:07 2018
+
+
+{1 1 38 131 57 139 126 0001-01-01 00:00:00 +0000 UTC}
+2018/04/12 18:10:07 Registering metrics from devices...
+2018/04/12 18:10:07 Updating metrics: 1 map[1:51 2:86 3:58 4:61 5:126]
+2018/04/12 18:10:07 Connection closed
+2018/04/12 18:10:07 Connection closed
+2018/04/12 18:10:07 Daemon process is killed
