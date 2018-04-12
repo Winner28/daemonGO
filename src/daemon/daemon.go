@@ -30,8 +30,8 @@ func StartDaemon() {
 	}
 	defer cntxt.Release()
 
-	go registerIncomingMetricsFromDevices(1, 10)
-	go monitorIncomingMetricsOfDevices(1, 10)
+	go registerIncomingMetricsFromDevices(1, 1000)
+	go monitorIncomingMetricsOfDevices(1, 1000)
 
 	err = daemon.ServeSignals()
 	if err != nil {
